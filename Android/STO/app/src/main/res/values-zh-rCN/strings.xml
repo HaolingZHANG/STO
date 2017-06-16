@@ -1,0 +1,302 @@
+<resources>
+    <string name="app_name">STO</string>
+    <string name="app_full_name">定向专项训练</string>
+    <string name="training">训练科目</string>
+
+    <string name="calculate_run_balance">计算式平均跑</string>
+    <string name="plum_bleep_test">梅花式莱格尔</string>
+    <string name="legend_bleep_test">图例式莱格尔</string>
+    <string name="setting">设置</string>
+
+    <string name="calculate_run_balance_summary">\u3000\u3000简单算数平均跑是模拟定向运动员在缺氧运动中的定期思维能力。受训者需尽可能以相同的步幅和步频奔跑并进行简单数学题的记背、心算以及选择正确答案。之所以要以相同的步幅和步频奔跑，是因为在定向越野运动中保持良好的行进节奏有利于对周围环境进行有效感知。</string>
+    <string name="calculate_run_balance_tech">\u3000\u3000要求不能在看题或答题的过程中从跑姿变为步态，尽量在跑完全程的同时做完所有的题。</string>
+    <string name="plum_bleep_test_summary">\u3000\u3000梅花定向式莱格尔模拟定向运动员在百米定向中对方向的判断与记忆能力。运动员在进行百米定向的过程中，通常会时刻牢记自己当前位置，将要到达的控制点以及下一个控制点位置。受训者依据震动开始训练，每一次震动到达下一个控制点。手机应用中只显示运动员接下来跑的路线，直到结束。每条梅花边的长度为20M，受训者根据莱格尔的音乐控制往返时间。</string>
+    <string name="plum_bleep_test_tech">\u3000\u3000要求跟上正在绘制的当前路线（浅黄色）和下一条路线（浅绿色），手机震动表示开始当前路线。请提前判定转身方向，跟不上节奏请重来。</string>
+    <string name="legend_bleep_test_summary">\u3000\u3000图例式莱格尔是模拟在缺氧的定向过程中对定向地图的认知能力。在该训练的每一次冲刺中，受训者必须做完应用左上角所示数量的图例选择题，选择错误后会即时得到正确的提示。每条梅花边的长度为20M，受训者根据莱格尔的音乐控制往返时间。</string>
+    <string name="legend_bleep_test_tech">\u3000\u3000要求在每趟莱格尔中，做对应界面左上方数量的题目，并有效完成莱格尔。做题的时机是很重要的，该时机被要求在非端点处进行。</string>
+
+    <string name="enter_length">总跑动距离（800~8000）：</string>
+    <string name="enter_count">总控制点数（20~100）：</string>
+    <string name="enter_trip">总折返趟数（20~100）：</string>
+
+    <string name="not_number">输入为非数字</string>
+    <string name="wrong_number">不符合训练要求</string>
+    <string name="quit_train">确认退出训练？</string>
+
+    <string name="grade_1">大一</string>
+    <string name="grade_2">大二</string>
+    <string name="grade_3">大三</string>
+    <string name="grade_4">大四</string>
+
+    <string name="degree_1">普通</string>
+    <string name="degree_2">困难</string>
+    <string name="degree_3">地狱</string>
+    <string name="degree_4">逆天</string>
+
+    <string name="degree_1_short">普通</string>
+    <string name="degree_2_short">困难</string>
+    <string name="degree_3_short">地狱</string>
+    <string name="degree_4_short">逆天</string>
+
+    <string name="sure">确定</string>
+    <string name="reset">还原</string>
+    <string name="cancel">取消</string>
+    <string name="start">开始训练</string>
+    <string name="is_start">已经开始</string>
+    <string name="stop">停止训练</string>
+    <string name="is_stop">已经停止</string>
+    <string name="is_process">正在训练项目中，请停止后再进行操作！</string>
+    <string name="quit_train_message">若临时退出训练，该次训练不记录在案！</string>
+
+
+    <string name="train_name">训练科目</string>
+    <string name="train_degree">训练难度</string>
+    <string name="completion_times">完成次数</string>
+    <string name="right_count">全对次数</string>
+    <string name="error_probability">错误概率</string>
+
+    <string name="send_sure">确认发送？</string>
+    <string name="send_sure_message">请听从教练组的安排发送邮件！</string>
+
+    <string name="setting_name">我的姓名</string>
+    <string name="setting_grade">我的年级</string>
+    <string name="setting_degree">训练难度</string>
+
+    <string name="setting_check">个人成绩</string>
+    <string name="setting_coach">教练邮箱</string>
+    <string name="setting_coach_summary">多个邮箱请以分号间隔</string>
+    <string name="setting_send">提交成绩</string>
+    <string name="setting_standard">图例识记</string>
+
+    <string name="setting_tech">技术简介</string>
+    <string name="setting_target">技术指标</string>
+    <string name="setting_designer">制作人员</string>
+
+    <string name="designer_name">张颢龄</string>
+    <string name="company">单位</string>
+    <string name="company_name">重庆理工大学</string>
+    <string name="college">部门</string>
+    <string name="college_name">计算机科学与工程学院</string>
+    <string name="phone">电话</string>
+    <string name="email">邮箱</string>
+    <string name="warn1">仅供学术交流使用</string>
+    <string name="warn2">非制作人同意不可他用</string>
+
+    <string name="amr_degree_1">100M/题</string>
+    <string name="amr_degree_2">80M/题</string>
+    <string name="amr_degree_3">50M/题</string>
+    <string name="amr_degree_4">40M/题</string>
+
+    <string name="btp_degree_1">从第11次开始</string>
+    <string name="btp_degree_2">从第21次开始</string>
+    <string name="btp_degree_3">从第31次开始</string>
+    <string name="btp_degree_4">从第41次开始</string>
+
+    <string name="btl_degree_1">每次1道题</string>
+    <string name="btl_degree_2">每次2道题</string>
+    <string name="btl_degree_3">每次3道题</string>
+    <string name="btl_degree_4">每次4道题</string>
+
+    <string name="record_file_create_error">记录文件创建不成功！</string>
+    <string name="record_file_read_error">记录文件读取不成功！</string>
+    <string name="record_file_write_error">记录数据于文件不成功！</string>
+    <string name="record_file_text_toast">请在手机本地存储的STO文件夹中添加record.sto文件作为附件</string>
+    <string name="record_file_train_record">训练报告</string>
+    <string name="record_file_text">请选择邮件发送软件</string>
+
+    <string name="calculate_degree_1_intro">平均每100米一道题</string>
+    <string name="calculate_degree_2_intro">平均每80米一道题</string>
+    <string name="calculate_degree_3_intro">平均每50米一道题</string>
+    <string name="calculate_degree_4_intro">平均每40米一道题</string>
+
+    <string name="complete_field">完成：</string>
+    <string name="difficulty_field">难度</string>
+    <string name="count_field">个</string>
+    <string name="count_field_2">道题</string>
+    <string name="total_field">总计</string>
+    <string name="wrong_field">错误</string>
+    <string name="next_field">该回合已做完，请下回合再继续！</string>
+    <string name="choose_field">您选择了</string>
+    <string name="right_field">，正确应选第</string>
+    <string name="wrong_field_2">项。\n您已错误</string>
+
+    <!--地形地貌：15 signs-->
+    <string name="CONTOUR_LINE">101</string>
+    <string name="s101">等高线</string>
+    <string name="PLAN_CURVE">102</string>
+    <string name="s102">计曲线</string>
+    <string name="CONTOUR_LINE_NOTE">103</string>
+    <string name="s103">等高线注记</string>
+    <string name="AUXILIARY_CONTOUR_LINE">104</string>
+    <string name="s104">辅助等高线</string>
+    <string name="LAND_BANK">105</string>
+    <string name="s105">土崖、土坎</string>
+    <string name="LAND_WALL">106</string>
+    <string name="s106">小土墙、 土垣</string>
+    <string name="SCOUR_GULLY">107</string>
+    <string name="s107">冲沟</string>
+    <string name="SMALL_SCOUR_GULLY">108</string>
+    <string name="s108">小冲沟</string>
+    <string name="DEPRESSION">109</string>
+    <string name="s109">洼地</string>
+    <string name="MASSIF">110</string>
+    <string name="s110">丘</string>
+    <string name="SMALL_DEPRESSION">111</string>
+    <string name="s111">小洼地</string>
+    <string name="PIT">112</string>
+    <string name="s112">土坑</string>
+    <string name="HOLLOW_LAND">113</string>
+    <string name="s113">土堆</string>
+    <string name="LONG_HOLLOW_LAND">114</string>
+    <string name="s114">长土堆</string>
+    <string name="CUSTOM_OBVIOUS_CHARACTERISTIC_OBJECT">115</string>
+    <string name="s115">自定义明显特征物体</string>
+
+    <!--水系： 9 signs-->
+    <string name="IMPASSABILITY_WAVE">201</string>
+    <string name="s201">不可通行水体</string>
+    <string name="PASSABILITY_WAVE">202</string>
+    <string name="s202">可通行水体</string>
+    <string name="IMPASSABILITY_WET_LAND">203</string>
+    <string name="s203">不可通行湿地</string>
+    <string name="WATER_CHANNEL">204</string>
+    <string name="s204">水道</string>
+    <string name="SEASONAL_WATER_CHANNEL">205</string>
+    <string name="s205">季节性水道</string>
+    <string name="SPRING">206</string>
+    <string name="s206">泉、井</string>
+    <string name="WATER_SOURCE">207</string>
+    <string name="s207">水源</string>
+    <string name="PUDDLE">208</string>
+    <string name="s208">水坑</string>
+    <string name="SPECIAL_WAVE">209</string>
+    <string name="s209">特殊水体</string>
+
+    <!--植被：18 signs-->
+    <string name="CLEAR_LAND">301</string>
+    <string name="s301">空旷地</string>
+    <string name="RARE_TREE_CLEAR_LAND">302</string>
+    <string name="s302">稀树空旷地</string>
+    <string name="MESSY_CLEAR_LAND">303</string>
+    <string name="s303">凌乱空旷地</string>
+    <string name="RARE_TREE_ANDMESSY_CLEAR_LAND">304</string>
+    <string name="s304">稀树凌乱空旷地</string>
+    <string name="EASY_RUN_WOODS">305</string>
+    <string name="s305">易跑树林</string>
+    <string name="JOGGING_WOODS">306</string>
+    <string name="s306">慢跑树林</string>
+    <string name="JOGGING_SHORT_WOODS">307</string>
+    <string name="s307">慢跑矮树林</string>
+    <string name="GO_SLOW_WOODS">308</string>
+    <string name="s308">慢行树林</string>
+    <string name="GO_SLOW_SHORT_WOODS">309</string>
+    <string name="s309">慢行矮树林</string>
+    <string name="DIFFICULT_CURRENT_WOODS">310</string>
+    <string name="s310">难通行树林</string>
+    <string name="CANNOT_CURRENT_WOODS">311</string>
+    <string name="s311">不可通行树林</string>
+    <string name="ONE_WAY_CAN_RUN_WOODS">312</string>
+    <string name="s312">单向可跑树林</string>
+    <string name="ONE_WAY_CAN_RUN_FRUIT_BEARING_FOREST">313</string>
+    <string name="s313">单向可跑果林</string>
+    <string name="FRUIT_BEARING_FOREST">314</string>
+    <string name="s314">果林</string>
+    <string name="PLOUGH">315</string>
+    <string name="s315">耕地</string>
+    <string name="INDEPENDENT_TREE">316</string>
+    <string name="s316">独立矮树丛</string>
+    <string name="PROMINENT_TREE">317</string>
+    <string name="s317">突出树</string>
+    <string name="EXTRUDE_TREE">318</string>
+    <string name="s318">未定义特殊植被</string>
+
+    <!--岩石与石块：9 signs-->
+    <string name="CANNOT_CURRENT_RLINT">401</string>
+    <string name="s401">不可通过陡崖</string>
+    <string name="CAN_CURRENT_RLINT">402</string>
+    <string name="s402">可通过石崖</string>
+    <string name="HUGE_ROCK">403</string>
+    <string name="s403">巨岩、 岩柱</string>
+    <string name="CAVE">404</string>
+    <string name="s404">岩坑、 山洞</string>
+    <string name="HUGE_STONE">405</string>
+    <string name="s405">巨石</string>
+    <string name="BIG_STONE">406</string>
+    <string name="s406">大石</string>
+    <string name="STONE_LAND">407</string>
+    <string name="s407">石块地</string>
+    <string name="SANDY">408</string>
+    <string name="s408">沙地</string>
+    <string name="STONE_PLATFROM">409</string>
+    <string name="s409">石坪</string>
+
+    <!--人造特征物：27 signs-->
+    <string name="PAVING_ROAD">501</string>
+    <string name="s501">铺筑道路</string>
+    <string name="NON_PAVING_ROAD">502</string>
+    <string name="s502">无铺筑道路</string>
+    <string name="FOOTPART">503</string>
+    <string name="s503">小路</string>
+    <string name="NARROW_FOREST_ROAD">504</string>
+    <string name="s504">窄林道</string>
+    <string name="BRIDGE">505</string>
+    <string name="s505">桥</string>
+    <string name="TUNNEL">506</string>
+    <string name="s506">隧道</string>
+    <string name="RAILWAY">507</string>
+    <string name="s507">铁路</string>
+    <string name="TRACK">508</string>
+    <string name="s508">轨道</string>
+    <string name="POWER_LINE">509</string>
+    <string name="s509">辅电路</string>
+    <string name="HIGH_PRESSURE_POWER_LINE">510</string>
+    <string name="s510">高压辅电路</string>
+    <string name="CANNOT_CURRENT_WALL">511</string>
+    <string name="s511">不可翻越围墙</string>
+    <string name="CAN_CURRENT_WALL">512</string>
+    <string name="s512">可翻越围墙</string>
+    <string name="CANNOT_CURRENT_RAIL">513</string>
+    <string name="s513">不可跨越围栏</string>
+    <string name="CAN_CURRENT_RAIL">514</string>
+    <string name="s514">可跨越围栏</string>
+    <string name="CANNOT_CURRENT_CONSTRUCTION">515</string>
+    <string name="s515">不可通行建筑</string>
+    <string name="CAN_CURRENT_CONSTRUCTION">516</string>
+    <string name="s516">架空建筑</string>
+    <string name="PILLAR">517</string>
+    <string name="s517">立柱</string>
+    <string name="PAVING_HARD_LAND">518</string>
+    <string name="s518">铺筑硬地</string>
+    <string name="PESTRICTED_ZONE">519</string>
+    <string name="s519">私宅、 禁区</string>
+    <string name="LADDER">520</string>
+    <string name="s520">阶梯</string>
+    <string name="CANNOT_CURRENT_PIPRLINE">521</string>
+    <string name="s521">不可跨越管道</string>
+    <string name="CAN_CURRENT_PIPRLINE">522</string>
+    <string name="s522">可跨越管道</string>
+    <string name="HIGH_TOWER">523</string>
+    <string name="s523">高塔</string>
+    <string name="SMALL_TOWER">524</string>
+    <string name="s524">小塔</string>
+    <string name="FEED_FRMAE">525</string>
+    <string name="s525">饲料架</string>
+    <string name="STONE_TABLET">525</string>
+    <string name="s526">石碑</string>
+    <string name="SPECIAL_PEOPLE_CREATION">527</string>
+    <string name="s527">特殊人造物</string>
+
+    <!--技术符号：6 signs-->
+    <string name="NORTH_LINE">601</string>
+    <string name="s601">磁北线</string>
+    <string name="AUXILIARY_LINE">602</string>
+    <string name="s602">辅助线</string>
+    <string name="PASS_DOT">603</string>
+    <string name="s603">必须通过点</string>
+    <string name="TEMPORARY_BUILD_AREA">604</string>
+    <string name="s604">临时建立区、 禁区</string>
+    <string name="MEDICAL_TREATMENT_SITE">605</string>
+    <string name="s605">医疗站</string>
+    <string name="WATER_SITE">606</string>
+    <string name="s606">水站</string>
+</resources>

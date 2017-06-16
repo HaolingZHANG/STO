@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:id="@+id/target">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:gravity="center"
+        android:text="@string/calculate_run_balance"
+        android:textSize="20sp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/degree_1_short" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/amr_degree_1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/degree_2_short"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/amr_degree_2" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/degree_3_short"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/amr_degree_3" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/degree_4_short" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/amr_degree_4" />
+    </TableRow>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/plum_bleep_test"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:textSize="20sp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/degree_1_short" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/btp_degree_1"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/degree_2_short" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/btp_degree_2" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/degree_3_short" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/btp_degree_3" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/degree_4_short" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/btp_degree_4" />
+    </TableRow>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/legend_bleep_test"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:textSize="20sp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/degree_1_short"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/btl_degree_1"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/degree_2_short"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/btl_degree_2"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/degree_3_short" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/btl_degree_3" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1"
+        android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/degree_4_short" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/btl_degree_4" />
+    </TableRow>
+</TableLayout>

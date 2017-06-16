@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:rowCount="13"
+        android:columnCount="5"
+        android:id="@+id/grid"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:text="@string/train_name"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:text="@string/calculate_run_balance"
+            android:layout_rowSpan="4"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:text="@string/plum_bleep_test"
+            android:layout_rowSpan="4"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:text="@string/legend_bleep_test"
+            android:layout_rowSpan="4"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:text="@string/train_degree"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:text="@string/degree_1_short"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:text="@string/degree_2_short"
+            android:layout_margin="5dp" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:text="@string/degree_3_short"
+            android:layout_margin="5dp" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:text="@string/degree_4_short"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:text="@string/degree_1_short"
+            tools:ignore="HardcodedText"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:text="@string/degree_2_short"
+            tools:ignore="HardcodedText"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:text="@string/degree_3_short"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:text="@string/degree_4_short"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:text="@string/degree_1_short"
+            android:layout_margin="5dp" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:text="@string/degree_2_short"
+            tools:ignore="HardcodedText"
+            android:layout_margin="5dp" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:text="@string/degree_3_short"
+            tools:ignore="HardcodedText"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:text="@string/degree_4_short"
+            tools:ignore="HardcodedText"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:text="@string/completion_times"
+            android:layout_margin="5dp" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/CF1"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            tools:ignore="HardcodedText"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/CF2"
+            android:text="0"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/CF3"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/CF4"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/PF1"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/PF2"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/PF3"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/PF4"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/LF1"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            tools:ignore="HardcodedText"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/LF2"
+            android:text="0"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/LF3"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/LF4"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:text="@string/right_count"
+            android:layout_margin="5dp" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/CP1"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/CP2"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/CP3"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/CP4"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/PP1"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/PP2"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/PP3"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/PP4"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/LP1"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/LP2"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/LP3"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/LP4"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:text="@string/error_probability"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            tools:ignore="HardcodedText"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/CW1"
+            android:text="0%"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/CW2"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            tools:ignore="HardcodedText"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/CW3"
+            android:text="0%"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/CW4"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/PW1"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/PW2"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/PW3"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/PW4"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/LW1"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/LW2"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/LW3"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/score_width"
+            android:id="@+id/LW4"
+            android:layout_margin="5dp"/>
+    </GridLayout>
+</LinearLayout>

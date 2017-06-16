@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory>
+
+        <EditTextPreference
+            android:key="setting_name"
+            android:title="@string/setting_name"
+            android:icon="@mipmap/account"/>
+
+        <ListPreference
+            android:key="setting_grade"
+            android:title="@string/setting_grade"
+            android:entries="@array/grade_options"
+            android:entryValues="@array/options_values"
+            android:defaultValue="1"
+            android:icon="@mipmap/id_or_normal"/>
+
+        <ListPreference
+            android:key="setting_degree"
+            android:title="@string/setting_degree"
+            android:entries="@array/degree_options"
+            android:entryValues="@array/options_values"
+            android:defaultValue="1"
+            android:icon="@mipmap/degree"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+
+        <Preference
+            android:key="setting_check"
+            android:title="@string/setting_check"
+            android:icon="@mipmap/history"/>
+
+        <EditTextPreference
+            android:key="setting_email"
+            android:title="@string/setting_coach"
+            android:icon="@mipmap/email"
+            android:dialogMessage="@string/setting_coach_summary"  />
+
+        <Preference
+            android:key="setting_send"
+            android:title="@string/setting_send"
+            android:icon="@mipmap/share"/>
+
+        <Preference
+            android:key="setting_standard"
+            android:title="@string/setting_standard"
+            android:icon="@mipmap/save"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+
+        <Preference
+            android:key="setting_tech"
+            android:title="@string/setting_tech"
+            android:icon="@mipmap/training"/>
+
+        <Preference
+            android:key="setting_target"
+            android:title="@string/setting_target"
+            android:icon="@mipmap/data"/>
+
+        <Preference
+            android:key="setting_designer"
+            android:title="@string/setting_designer"
+            android:icon="@mipmap/designer"/>
+    </PreferenceCategory>
+</PreferenceScreen>

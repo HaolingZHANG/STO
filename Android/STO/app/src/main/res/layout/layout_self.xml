@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/designer_name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        tools:ignore="HardcodedText,RtlSymmetry" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+        <ImageView
+            android:background="@mipmap/self_photo"
+            android:scaleType="centerInside"
+            android:layout_width="100dp"
+            android:layout_height="144dp"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            tools:ignore="ContentDescription" />
+
+        <TableLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:stretchColumns="*"
+            android:layout_weight="1"
+            android:id="@+id/self"
+            android:shrinkColumns="0,1,2"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1,2"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:text="@string/company"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="@string/company_name"
+                    tools:ignore="HardcodedText" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1,2"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:text="@string/college"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="@string/college_name"
+                    tools:ignore="HardcodedText" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="0,1"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:text="@string/phone"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="+86 15308026919"
+                    tools:ignore="HardcodedText" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1,2"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:text="@string/email"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="zhldoing@163.com"
+                    tools:ignore="HardcodedText" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/warn1"
+        android:textSize="15sp"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        tools:ignore="RtlSymmetry"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/warn2"
+        android:textSize="15sp"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        tools:ignore="RtlSymmetry"
+        android:layout_marginBottom="@dimen/activity_vertical_margin" />
+</LinearLayout>

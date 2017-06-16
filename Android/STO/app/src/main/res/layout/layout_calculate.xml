@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@drawable/textview_border"
+        android:id="@+id/countDown" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_weight="1"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#FF00FF"
+        android:background="@drawable/textview_border"
+        android:id="@+id/expression_show"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="A:"
+                android:id="@+id/answerA"
+                android:background="@drawable/textview_border"
+                tools:ignore="HardcodedText,NestedWeights,RtlSymmetry" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="B:"
+                android:id="@+id/answerB"
+                android:background="@drawable/textview_border"
+                tools:ignore="HardcodedText,RtlSymmetry" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="C:"
+                android:id="@+id/answerC"
+                android:background="@drawable/textview_border"
+                tools:ignore="HardcodedText,NestedWeights,RtlSymmetry" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="D:"
+                android:background="@drawable/textview_border"
+                android:id="@+id/answerD"
+                tools:ignore="HardcodedText,RtlSymmetry" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

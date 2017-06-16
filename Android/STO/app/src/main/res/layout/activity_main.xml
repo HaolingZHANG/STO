@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:clickable="false">
+
+    <LinearLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                style="@style/AppTheme.Base"
+                android:id="@+id/toolbar"/>
+        </android.support.design.widget.AppBarLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.jensenames.sto.calculate.view.CalculateLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/calculate"
+                android:visibility="gone"/>
+
+            <com.jensenames.sto.plum.view.PlumLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/plum"
+                android:visibility="gone" />
+
+            <com.jensenames.sto.legend.view.LegendLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/legend"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:src="@mipmap/start"
+                android:scaleType="fitCenter"
+                android:id="@+id/start"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:src="@mipmap/stop"
+                android:scaleType="fitCenter"
+                android:id="@+id/stop"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

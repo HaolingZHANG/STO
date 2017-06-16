@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="degree_options">
+        <item>Normal</item>
+        <item>Difficult</item>
+        <item>Hell</item>
+        <item>Fate</item>
+    </string-array>
+
+    <string-array name="grade_options">
+        <item>Freshman</item>
+        <item>Sophomore</item>
+        <item>Junior</item>
+        <item>Senior</item>
+    </string-array>
+
+    <string-array name="options_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>

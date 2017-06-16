@@ -1,0 +1,304 @@
+<resources>
+    <string name="app_name">STO</string>
+    <string name="app_full_name">Special Training in Orienteering</string>
+    <string name="training">Training subjects</string>
+
+    <string name="calculate_run_balance">AMR</string>
+    <string name="plum_bleep_test">BTP</string>
+    <string name="legend_bleep_test">BTL</string>
+    <string name="setting">Setting</string>
+
+    <string name="calculate_run_balance_summary">\u3000AMR(Arithmetic Mean Running) has simulated the skill of orienteering athletes thinking and memory under hypoxia. Trainees should run with same stride length and stride frequency, and remember the numbers, mental arithmetic then choose the right answers. The reason why AMR needs trainees take the same stride length and stride frequency in running is that keeping a good running rhythm in orienteering is easier to effectively perceive the environment.</string>
+    <string name="calculate_run_balance_tech">\u3000Asking that you can not be changed from running to walking in the course of the examination and answer, as far as possible to complete all the problems at the same time.</string>
+    <string name="plum_bleep_test_summary">\u3000BTP(Bleep Test in Plum-blossom) has simulated the skill of orienteering athletes judging and remembering the direction. In the course of hectometer-orientation, athletes usually keep in mind to their current position, the current control point, and the next control point. Trainees should start training on the basis of vibration in smartphone and reach the next control point before each vibration. The application only shows the route which the trainee will run next except for the first time. The length of each plum-blossom side is 20M. Please control the time of next round according to the music of multi-stage fitness test.</string>
+    <string name="plum_bleep_test_tech">\u3000Asking to follow the next line (light green) is being plotted, and mobile phone vibration indicates the beginning of the current route. Please advance to determine the direction of rotation, please repeat training if you can not keep up with the rhythm.</string>
+    <string name="legend_bleep_test_summary">\u3000BTL(Bleep Test in Legend-symbols) has simulated the skill of orienteering athletes distinguish orienteering legend-symbols under hypoxia. During each sprint of the training, trainees must complete some questions of legend-symbol selection which the completion number is displayed in the upper left corner of the screen, the correct prompt will be given immediately after the error is selected. The length is 20M. Please control the time of next round according to the music of multi-stage fitness test.</string>
+    <string name="legend_bleep_test_tech">\u3000Asking for the top left of the interface in each run.Please control the round-trip time according to the music of multi-stage fitness test. Besides, the timing of the problem is important, and is required at non-extreme-points. </string>
+
+    <string name="enter_length">Move distance（800~8000）：</string>
+    <string name="enter_count">Control points（20~100）：</string>
+    <string name="enter_trip">Shuttle run count（20~100）：</string>
+
+    <string name="not_number">Wrong, non-numeric!</string>
+    <string name="wrong_number">Wrong, unconformity requirement!</string>
+    <string name="quit_train">Withdrawal training with confirm?</string>
+
+    <string name="grade_1">Freshman</string>
+    <string name="grade_2">Sophomore</string>
+    <string name="grade_3">Junior</string>
+    <string name="grade_4">Senior</string>
+
+    <string name="degree_1">Normal</string>
+    <string name="degree_2">Difficult</string>
+    <string name="degree_3">Hell</string>
+    <string name="degree_4">Fate</string>
+
+    <string name="degree_1_short">Nor.</string>
+    <string name="degree_2_short">Dif.</string>
+    <string name="degree_3_short">Hell</string>
+    <string name="degree_4_short">Fate</string>
+
+    <string name="sure">Sure</string>
+    <string name="reset">Reset</string>
+    <string name="cancel">Cancel</string>
+    <string name="start">Start Training now</string>
+    <string name="is_start">Already started the training</string>
+    <string name="stop">Stop Training now</string>
+    <string name="is_stop">Already stopped the training</string>
+    <string name="is_process">In the training program, please operate after training stop!</string>
+    <string name="quit_train_message">If you withdrawal from training temporarily, the training result is not recorded!</string>
+
+    <string name="train_name">ST.</string>
+    <string name="train_degree">Level</string>
+    <string name="completion_times">C.\nQty.</string>
+    <string name="right_count">AR.\nQty.</string>
+    <string name="error_probability">AE.\nPR.</string>
+
+    <string name="send_sure">Send with confirm?</string>
+    <string name="send_sure_message">Please send the mail according to the coaching staff!</string>
+
+    <string name="setting_name">Name</string>
+    <string name="setting_grade">Grade</string>
+    <string name="setting_degree">Difficulty</string>
+
+    <string name="setting_check">Personal achievement</string>
+    <string name="setting_coach">Coach mailbox</string>
+    <string name="setting_coach_summary">Multiple mailboxes, separated by semicolons.</string>
+    <string name="setting_send">Submission of results</string>
+    <string name="setting_standard">Legend-symbols memorization</string>
+
+    <string name="setting_tech">Technique introduction</string>
+    <string name="setting_target">Technique target</string>
+    <string name="setting_designer">Designer</string>
+
+    <string name="designer_name">Hao-Ling Zhang</string>
+    <string name="company">Org.</string>
+    <string name="company_name">CQUT,Chongqing,China</string>
+    <string name="college">Dept.</string>
+    <string name="college_name">CSE.</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="warn1">For academic exchange only</string>
+    <string name="warn2">The right to interpret is owned by the designer</string>
+
+
+    <string name="amr_degree_1">100M/simple sums</string>
+    <string name="amr_degree_2">80M/simple sums</string>
+    <string name="amr_degree_3">50M/simple sums</string>
+    <string name="amr_degree_4">40M/simple sums</string>
+
+    <string name="btp_degree_1">Begin at 11 times</string>
+    <string name="btp_degree_2">Begin at 21 times</string>
+    <string name="btp_degree_3">Begin at 31 times</string>
+    <string name="btp_degree_4">Begin at 41 times</string>
+
+    <string name="btl_degree_1">1 choice question/time</string>
+    <string name="btl_degree_2">2 choice questions/time</string>
+    <string name="btl_degree_3">3 choice questions/time</string>
+    <string name="btl_degree_4">4 choice questions/time</string>
+
+    <string name="record_file_create_error">The record file create failed!</string>
+    <string name="record_file_read_error">The record file read failed!</string>
+    <string name="record_file_write_error">The record file write failed!</string>
+    <string name="record_file_text_toast">Please add the record.sto file of STO folder in the local storage as an attachment!</string>
+    <string name="record_file_train_record">Training Record</string>
+    <string name="record_file_text">Please select the mail delivery software</string>
+
+    <string name="calculate_degree_1_intro">An average of 100 meters per session</string>
+    <string name="calculate_degree_2_intro">An average of 80 meters per session</string>
+    <string name="calculate_degree_3_intro">An average of 50 meters per session</string>
+    <string name="calculate_degree_4_intro">An average of 40 meters per session</string>
+
+    <string name="complete_field">Complete:</string>
+    <string name="difficulty_field">difficulty</string>
+    <!--suppress CheckTagEmptyBody -->
+    <string name="count_field"></string>
+    <!--suppress CheckTagEmptyBody -->
+    <string name="count_field_2"></string>
+    <string name="total_field">total count is&#160;</string>
+    <string name="wrong_field">&#160;wrong count is&#160;</string>
+    <string name="next_field">The round has been completed, please continue after the next round!</string>
+    <string name="choose_field">You chose&#160;</string>
+    <string name="right_field">&#160;item, the right answer is&#160;</string>
+    <string name="wrong_field_2">.\nYour number of errors is&#160;</string>
+
+    <!--terrain or landform : 15 signs-->
+    <string name="CONTOUR_LINE">101</string>
+    <string name="s101">Contour</string>
+    <string name="PLAN_CURVE">102</string>
+    <string name="s102">Gauge curve</string>
+    <string name="CONTOUR_LINE_NOTE">103</string>
+    <string name="s103">Contour value</string>
+    <string name="AUXILIARY_CONTOUR_LINE">104</string>
+    <string name="s104">Form line</string>
+    <string name="LAND_BANK">105</string>
+    <string name="s105">Steep slope</string>
+    <string name="LAND_WALL">106</string>
+    <string name="s106">Earth wall</string>
+    <string name="SCOUR_GULLY">107</string>
+    <string name="s107">Erosion gully</string>
+    <string name="SMALL_SCOUR_GULLY">108</string>
+    <string name="s108">Small erosion gully</string>
+    <string name="DEPRESSION">109</string>
+    <string name="s109">Depression</string>
+    <string name="MASSIF">110</string>
+    <string name="s110">Hill</string>
+    <string name="SMALL_DEPRESSION">111</string>
+    <string name="s111">Small depression</string>
+    <string name="PIT">112</string>
+    <string name="s112">Pit</string>
+    <string name="HOLLOW_LAND">113</string>
+    <string name="s113">Knoll</string>
+    <string name="LONG_HOLLOW_LAND">114</string>
+    <string name="s114">Long knoll</string>
+    <string name="CUSTOM_OBVIOUS_CHARACTERISTIC_OBJECT">115</string>
+    <string name="s115">Special terrain</string>
+
+    <!--Wave series : 9 signs-->
+    <string name="IMPASSABILITY_WAVE">201</string>
+    <string name="s201">Lake(impassable)</string>
+    <string name="PASSABILITY_WAVE">202</string>
+    <string name="s202">Lake</string>
+    <string name="IMPASSABILITY_WET_LAND">203</string>
+    <string name="s203">Marsh(impassable)</string>
+    <string name="WATER_CHANNEL">204</string>
+    <string name="s204">Water channel</string>
+    <string name="SEASONAL_WATER_CHANNEL">205</string>
+    <string name="s205">Minor water channel,Ditch</string>
+    <string name="SPRING">206</string>
+    <string name="s206">Well</string>
+    <string name="WATER_SOURCE">207</string>
+    <string name="s207">Spring</string>
+    <string name="PUDDLE">208</string>
+    <string name="s208">Waterhole</string>
+    <string name="SPECIAL_WAVE">209</string>
+    <string name="s209">Water tank, Water trough</string>
+
+    <!--vegetation : 18 signs-->
+    <string name="CLEAR_LAND">301</string>
+    <string name="s301">Open land</string>
+    <string name="RARE_TREE_CLEAR_LAND">302</string>
+    <string name="s302">Scattered trees land</string>
+    <string name="MESSY_CLEAR_LAND">303</string>
+    <string name="s303">Semi-open land</string>
+    <string name="RARE_TREE_ANDMESSY_CLEAR_LAND">304</string>
+    <string name="s304">semi-open land(Scattered trees)</string>
+    <string name="EASY_RUN_WOODS">305</string>
+    <string name="s305">Easy run</string>
+    <string name="JOGGING_WOODS">306</string>
+    <string name="s306">Jog</string>
+    <string name="JOGGING_SHORT_WOODS">307</string>
+    <string name="s307">Slow run(undergrowth)</string>
+    <string name="GO_SLOW_WOODS">308</string>
+    <string name="s308">Slow run</string>
+    <string name="GO_SLOW_SHORT_WOODS">309</string>
+    <string name="s309">Slow walk(undergrowth)</string>
+    <string name="DIFFICULT_CURRENT_WOODS">310</string>
+    <string name="s310">Forest</string>
+    <string name="CANNOT_CURRENT_WOODS">311</string>
+    <string name="s311">Forest(impassable)</string>
+    <string name="ONE_WAY_CAN_RUN_WOODS">312</string>
+    <string name="s312">Forest(one-way)</string>
+    <string name="ONE_WAY_CAN_RUN_FRUIT_BEARING_FOREST">313</string>
+    <string name="s313">Orchards(one-way)</string>
+    <string name="FRUIT_BEARING_FOREST">314</string>
+    <string name="s314">Orchards</string>
+    <string name="PLOUGH">315</string>
+    <string name="s315">Plough</string>
+    <string name="INDEPENDENT_TREE">316</string>
+    <string name="s316">Thicket</string>
+    <string name="PROMINENT_TREE">317</string>
+    <string name="s317">Distinctive tree</string>
+    <string name="EXTRUDE_TREE">318</string>
+    <string name="s318">Tree stump, Root stock</string>
+
+    <!--Rock or stone : 9 signs-->
+    <string name="CANNOT_CURRENT_RLINT">401</string>
+    <string name="s401">Rock face</string>
+    <string name="CAN_CURRENT_RLINT">402</string>
+    <string name="s402">Cliff</string>
+    <string name="HUGE_ROCK">403</string>
+    <string name="s403">Rock pillar</string>
+    <string name="CAVE">404</string>
+    <string name="s404">Cave</string>
+    <string name="HUGE_STONE">405</string>
+    <string name="s405">Boulder</string>
+    <string name="BIG_STONE">406</string>
+    <string name="s406">Stone</string>
+    <string name="STONE_LAND">407</string>
+    <string name="s407">Boulder field</string>
+    <string name="SANDY">408</string>
+    <string name="s408">Sandy</string>
+    <string name="STONE_PLATFROM">409</string>
+    <string name="s409">Bare rock</string>
+
+    <!--Artificial characteristic object : 27 signs-->
+    <string name="PAVING_ROAD">501</string>
+    <string name="s501">Paved road</string>
+    <string name="NON_PAVING_ROAD">502</string>
+    <string name="s502">Road</string>
+    <string name="FOOTPART">503</string>
+    <string name="s503">Path</string>
+    <string name="NARROW_FOREST_ROAD">504</string>
+    <string name="s504">Ride</string>
+    <string name="BRIDGE">505</string>
+    <string name="s505">Bridge</string>
+    <string name="TUNNEL">506</string>
+    <string name="s506">Tunnel</string>
+    <string name="RAILWAY">507</string>
+    <string name="s507">Railway</string>
+    <string name="TRACK">508</string>
+    <string name="s508">Track</string>
+    <string name="POWER_LINE">509</string>
+    <string name="s509">Power line</string>
+    <string name="HIGH_PRESSURE_POWER_LINE">510</string>
+    <string name="s510">Power line(pylon)</string>
+    <string name="CANNOT_CURRENT_WALL">511</string>
+    <string name="s511">Wall</string>
+    <string name="CAN_CURRENT_WALL">512</string>
+    <string name="s512">Stone wall</string>
+    <string name="CANNOT_CURRENT_RAIL">513</string>
+    <string name="s513">Fence(impassable)</string>
+    <string name="CAN_CURRENT_RAIL">514</string>
+    <string name="s514">Fence</string>
+    <string name="CANNOT_CURRENT_CONSTRUCTION">515</string>
+    <string name="s515">Building</string>
+    <string name="CAN_CURRENT_CONSTRUCTION">516</string>
+    <string name="s516">Canopy</string>
+    <string name="PILLAR">517</string>
+    <string name="s517">Pillar</string>
+    <string name="PAVING_HARD_LAND">518</string>
+    <string name="s518">Paved area</string>
+    <string name="PESTRICTED_ZONE">519</string>
+    <string name="s519">Area with forbidden access</string>
+    <string name="LADDER">520</string>
+    <string name="s520">Stairway</string>
+    <string name="CANNOT_CURRENT_PIPRLINE">521</string>
+    <string name="s521">Pipeline(impassable)</string>
+    <string name="CAN_CURRENT_PIPRLINE">522</string>
+    <string name="s522">Pipeline</string>
+    <string name="HIGH_TOWER">523</string>
+    <string name="s523">Tower</string>
+    <string name="SMALL_TOWER">524</string>
+    <string name="s524">Shooting platform</string>
+    <string name="FEED_FRMAE">525</string>
+    <string name="s525">Fodder rack</string>
+    <string name="STONE_TABLET">525</string>
+    <string name="s526">Monument, Statue</string>
+    <string name="SPECIAL_PEOPLE_CREATION">527</string>
+    <string name="s527">Special item</string>
+
+    <!--Technology sign : 6 signs-->
+    <string name="NORTH_LINE">601</string>
+    <string name="s601">North Line</string>
+    <string name="AUXILIARY_LINE">602</string>
+    <string name="s602">Subline</string>
+    <string name="PASS_DOT">603</string>
+    <string name="s603">Pass dot</string>
+    <string name="TEMPORARY_BUILD_AREA">604</string>
+    <string name="s604">Temporary establishment area</string>
+    <string name="MEDICAL_TREATMENT_SITE">605</string>
+    <string name="s605">Medical station</string>
+    <string name="WATER_SITE">606</string>
+    <string name="s606">Water station</string>
+</resources>
