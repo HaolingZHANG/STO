@@ -55,22 +55,17 @@
     <string name="right_count">全对次数</string>
     <string name="error_probability">错误概率</string>
 
-    <string name="send_sure">确认发送？</string>
-    <string name="send_sure_message">请听从教练组的安排发送邮件！</string>
-
-    <string name="setting_name">我的姓名</string>
-    <string name="setting_grade">我的年级</string>
     <string name="setting_degree">训练难度</string>
 
     <string name="setting_check">个人成绩</string>
-    <string name="setting_coach">教练邮箱</string>
-    <string name="setting_coach_summary">多个邮箱请以分号间隔</string>
-    <string name="setting_send">提交成绩</string>
+    <string name="setting_send">分享成绩</string>
     <string name="setting_standard">图例识记</string>
 
     <string name="setting_tech">技术简介</string>
     <string name="setting_target">技术指标</string>
     <string name="setting_designer">制作人员</string>
+
+    <string name="share_text">分享成绩到</string>
 
     <string name="designer_name">张颢龄</string>
     <string name="company">单位</string>

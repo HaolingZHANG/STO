@@ -3,19 +3,6 @@
 
     <PreferenceCategory>
 
-        <EditTextPreference
-            android:key="setting_name"
-            android:title="@string/setting_name"
-            android:icon="@mipmap/account"/>
-
-        <ListPreference
-            android:key="setting_grade"
-            android:title="@string/setting_grade"
-            android:entries="@array/grade_options"
-            android:entryValues="@array/options_values"
-            android:defaultValue="1"
-            android:icon="@mipmap/id_or_normal"/>
-
         <ListPreference
             android:key="setting_degree"
             android:title="@string/setting_degree"
@@ -32,14 +19,8 @@
             android:title="@string/setting_check"
             android:icon="@mipmap/history"/>
 
-        <EditTextPreference
-            android:key="setting_email"
-            android:title="@string/setting_coach"
-            android:icon="@mipmap/email"
-            android:dialogMessage="@string/setting_coach_summary"  />
-
         <Preference
-            android:key="setting_send"
+            android:key="setting_share"
             android:title="@string/setting_send"
             android:icon="@mipmap/share"/>
 
@@ -54,12 +35,12 @@
         <Preference
             android:key="setting_tech"
             android:title="@string/setting_tech"
-            android:icon="@mipmap/training"/>
+            android:icon="@mipmap/intro"/>
 
         <Preference
             android:key="setting_target"
             android:title="@string/setting_target"
-            android:icon="@mipmap/data"/>
+            android:icon="@mipmap/target"/>
 
         <Preference
             android:key="setting_designer"

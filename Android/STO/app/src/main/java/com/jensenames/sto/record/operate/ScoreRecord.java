@@ -73,4 +73,8 @@ public class ScoreRecord {
     public static ArrayList<Score> getTotalScores() {
         return totalScores;
     }
+
+    public static File getRecordFile() {
+        return recordFile;
+    }
 }

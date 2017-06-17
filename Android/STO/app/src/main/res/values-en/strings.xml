@@ -54,22 +54,17 @@
     <string name="right_count">AR.\nQty.</string>
     <string name="error_probability">AE.\nPR.</string>
 
-    <string name="send_sure">Send with confirm?</string>
-    <string name="send_sure_message">Please send the mail according to the coaching staff!</string>
-
-    <string name="setting_name">Name</string>
-    <string name="setting_grade">Grade</string>
     <string name="setting_degree">Difficulty</string>
 
     <string name="setting_check">Personal achievement</string>
-    <string name="setting_coach">Coach mailbox</string>
-    <string name="setting_coach_summary">Multiple mailboxes, separated by semicolons.</string>
-    <string name="setting_send">Submission of results</string>
+    <string name="setting_send">Share results</string>
     <string name="setting_standard">Legend-symbols memorization</string>
 
     <string name="setting_tech">Technique introduction</string>
     <string name="setting_target">Technique target</string>
     <string name="setting_designer">Designer</string>
+
+    <string name="share_text">Share record to</string>
 
     <string name="designer_name">Hao-Ling Zhang</string>
     <string name="company">Org.</string>
