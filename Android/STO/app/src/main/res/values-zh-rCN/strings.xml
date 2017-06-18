@@ -17,7 +17,7 @@
 
     <string name="enter_length">总跑动距离（800~8000）：</string>
     <string name="enter_count">总控制点数（20~100）：</string>
-    <string name="enter_trip">总折返趟数（20~100）：</string>
+    <string name="enter_trip">总折返趟数（20~80）：</string>
 
     <string name="not_number">输入为非数字</string>
     <string name="wrong_number">不符合训练要求</string>
@@ -84,10 +84,10 @@
     <string name="amr_degree_3">50M/题</string>
     <string name="amr_degree_4">40M/题</string>
 
-    <string name="btp_degree_1">从第11次开始</string>
-    <string name="btp_degree_2">从第21次开始</string>
-    <string name="btp_degree_3">从第31次开始</string>
-    <string name="btp_degree_4">从第41次开始</string>
+    <string name="btp_degree_1">从第3等级开始</string>
+    <string name="btp_degree_2">从第5等级开始</string>
+    <string name="btp_degree_3">从第7等级开始</string>
+    <string name="btp_degree_4">从第8等级开始</string>
 
     <string name="btl_degree_1">每次1道题</string>
     <string name="btl_degree_2">每次2道题</string>

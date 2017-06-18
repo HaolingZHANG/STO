@@ -17,7 +17,7 @@
 
     <string name="enter_length">Move distance（800~8000）：</string>
     <string name="enter_count">Control points（20~100）：</string>
-    <string name="enter_trip">Shuttle run count（20~100）：</string>
+    <string name="enter_trip">Shuttle run count（20~80）：</string>
 
     <string name="not_number">Wrong, non-numeric!</string>
     <string name="wrong_number">Wrong, unconformity requirement!</string>
@@ -85,10 +85,10 @@
     <string name="amr_degree_3">50M/simple sums</string>
     <string name="amr_degree_4">40M/simple sums</string>
 
-    <string name="btp_degree_1">Begin at 11 times</string>
-    <string name="btp_degree_2">Begin at 21 times</string>
-    <string name="btp_degree_3">Begin at 31 times</string>
-    <string name="btp_degree_4">Begin at 41 times</string>
+    <string name="btp_degree_1">Begin at Level 3</string>
+    <string name="btp_degree_2">Begin at Level 5</string>
+    <string name="btp_degree_3">Begin at Level 7</string>
+    <string name="btp_degree_4">Begin at Level 8</string>
 
     <string name="btl_degree_1">1 choice question/time</string>
     <string name="btl_degree_2">2 choice questions/time</string>

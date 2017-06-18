@@ -233,7 +233,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                                     }
                                     break;
                                 case 3:
-                                    if(number >= 20 && number <= 100) {
+                                    if(number >= 20 && number <= 80) {
                                         field.setAccessible(true);
                                         field.set(dialog, true);
                                         field.setAccessible(false);
