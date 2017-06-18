@@ -6,7 +6,7 @@ import android.widget.ImageView;
 
 import com.jensenames.sto.R;
 
-public class StandardView extends ImageView {
+public class StandardView extends TouchImageView {
 
     public StandardView(Context context) {
         super(context);

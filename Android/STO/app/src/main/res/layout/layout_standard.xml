@@ -10,8 +10,7 @@
     <com.jensenames.sto.adied.controls.StandardView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_margin="@dimen/activity_vertical_margin"
         android:scaleType="fitCenter"
         android:id="@+id/image"
         android:src="@mipmap/standard_cn"
