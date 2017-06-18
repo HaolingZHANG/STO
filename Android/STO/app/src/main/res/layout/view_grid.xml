@@ -18,6 +18,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:text="@string/train_name"
@@ -25,6 +26,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:text="@string/calculate_run_balance"
@@ -32,6 +34,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:text="@string/plum_bleep_test"
@@ -40,6 +43,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:text="@string/legend_bleep_test"
@@ -48,6 +52,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:text="@string/train_degree"
@@ -55,6 +60,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:text="@string/degree_1_short"
@@ -62,6 +68,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:text="@string/degree_2_short"
@@ -69,6 +76,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:text="@string/degree_3_short"
@@ -76,6 +84,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:text="@string/degree_4_short"
@@ -83,6 +92,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:text="@string/degree_1_short"
@@ -91,6 +101,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:text="@string/degree_2_short"
@@ -99,6 +110,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:text="@string/degree_3_short"
@@ -106,6 +118,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:text="@string/degree_4_short"
@@ -113,6 +126,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:text="@string/degree_1_short"
@@ -120,6 +134,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:text="@string/degree_2_short"
@@ -128,6 +143,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:text="@string/degree_3_short"
@@ -136,6 +152,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:text="@string/degree_4_short"
@@ -144,6 +161,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:text="@string/completion_times"
@@ -151,6 +169,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:id="@+id/CF1"
@@ -158,6 +177,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             tools:ignore="HardcodedText"
             android:layout_width="@dimen/score_width"
@@ -167,6 +187,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:id="@+id/CF3"
@@ -174,6 +195,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:id="@+id/CF4"
@@ -181,6 +203,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:id="@+id/PF1"
@@ -188,6 +211,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:id="@+id/PF2"
@@ -195,6 +219,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:id="@+id/PF3"
@@ -202,6 +227,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:id="@+id/PF4"
@@ -209,6 +235,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:id="@+id/LF1"
@@ -216,6 +243,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             tools:ignore="HardcodedText"
             android:layout_width="@dimen/score_width"
@@ -225,6 +253,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:id="@+id/LF3"
@@ -232,6 +261,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:id="@+id/LF4"
@@ -239,6 +269,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:text="@string/right_count"
@@ -246,6 +277,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:id="@+id/CP1"
@@ -253,6 +285,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:id="@+id/CP2"
@@ -260,6 +293,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:id="@+id/CP3"
@@ -267,6 +301,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:id="@+id/CP4"
@@ -274,6 +309,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:id="@+id/PP1"
@@ -281,6 +317,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:id="@+id/PP2"
@@ -288,6 +325,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:id="@+id/PP3"
@@ -295,6 +333,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:id="@+id/PP4"
@@ -302,6 +341,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:id="@+id/LP1"
@@ -309,6 +349,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:id="@+id/LP2"
@@ -316,6 +357,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:id="@+id/LP3"
@@ -323,6 +365,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:id="@+id/LP4"
@@ -330,6 +373,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:text="@string/error_probability"
@@ -337,6 +381,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             tools:ignore="HardcodedText"
             android:layout_width="@dimen/score_width"
@@ -346,6 +391,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:id="@+id/CW2"
@@ -353,6 +399,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             tools:ignore="HardcodedText"
             android:layout_width="@dimen/score_width"
@@ -362,6 +409,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:id="@+id/CW4"
@@ -369,6 +417,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:id="@+id/PW1"
@@ -376,6 +425,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:id="@+id/PW2"
@@ -383,6 +433,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:id="@+id/PW3"
@@ -390,6 +441,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:id="@+id/PW4"
@@ -397,6 +449,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:id="@+id/LW1"
@@ -404,6 +457,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:id="@+id/LW2"
@@ -411,6 +465,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:id="@+id/LW3"
@@ -418,6 +473,7 @@
 
         <TextView
             android:layout_gravity="center"
+            android:background="@drawable/grid"
             android:gravity="center"
             android:layout_width="@dimen/score_width"
             android:id="@+id/LW4"

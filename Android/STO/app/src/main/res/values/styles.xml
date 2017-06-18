@@ -4,13 +4,25 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textColorSecondary">@color/colorPrimary</item>
+        <item name="android:textCursorDrawable">@drawable/cursor</item>
+
         <item name="windowActionModeOverlay">true</item>
         <item name="actionModeStyle">@style/AppTheme.actionModeStyle</item>
+        <item name="android:dialogTheme">@style/AppDialog</item>
+        <item name="android:alertDialogTheme">@style/AppDialog</item>
     </style>
 
     <style name="AppTheme.actionModeStyle" parent="@style/Base.Widget.AppCompat.ActionMode" />
 
     <style name="AppTheme" parent="AppTheme.Base" />
 
+    <style name="AppDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+        <item name="android:textColorAlertDialogListItem">@color/colorPrimaryDark</item>
+    </style>
 </resources>
-

@@ -59,10 +59,11 @@ public class PlumLayout extends TrainLayout {
 
     @Override
     public void start() {
+        final int[] startI = {15, 32, 51, 72};
         thread = new Thread(new Runnable() {
 
             private int i = 1;
-            private int startI = degree * 10;
+
             private Handler handler = new Handler(){
                 @Override
                 public void handleMessage(Message msg) {
@@ -88,13 +89,14 @@ public class PlumLayout extends TrainLayout {
 
                     plumView.setPath(path, i == 1);
 
-                    int intervalTime = LegerTime.getIntervalTime(startI, 0);
+                    int intervalTime = LegerTime.getIntervalTime(startI[degree - 1], 0);
+                    System.out.println(intervalTime);
                     SoundPrompt.ring();
                     if(intervalTime != -1)
                         handler.postDelayed(this, intervalTime);
                 }
                 i++;
-                startI++;
+                startI[degree - 1]++;
 
                 handler.sendMessageAtTime(new Message(), 0);
                 if(i == pathIds.size() + 1) {

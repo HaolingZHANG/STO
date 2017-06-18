@@ -44,22 +44,31 @@
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="@color/colorAccent"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
                     android:text="@string/calculate_run_balance"
                     android:textSize="20sp"
+                    android:textColor="@color/colorPrimaryDark"
                     android:id="@+id/calculate_run_balance"/>
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="@color/colorAccent"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
                     android:text="@string/plum_bleep_test"
                     android:textSize="20sp"
+                    android:textColor="@color/colorPrimaryDark"
                     android:id="@+id/plum_bleep_test"/>
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="@color/colorAccent"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
                     android:text="@string/legend_bleep_test"
                     android:textSize="20sp"
+                    android:textColor="@color/colorPrimaryDark"
                     android:id="@+id/legend_bleep_test"/>
             </LinearLayout>
         </ScrollView>

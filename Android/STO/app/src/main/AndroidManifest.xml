@@ -34,7 +34,6 @@
             android:label="@string/setting"
             android:configChanges="orientation"
             android:screenOrientation="portrait"/>
-
     </application>
 
     <uses-permission android:name="android.permission.VIBRATE" tools:ignore="ManifestOrder" />

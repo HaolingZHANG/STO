@@ -7,13 +7,6 @@
         <item>逆天</item>
     </string-array>
 
-    <string-array name="grade_options">
-        <item>大一</item>
-        <item>大二</item>
-        <item>大三</item>
-        <item>大四</item>
-    </string-array>
-
     <string-array name="options_values">
         <item>1</item>
         <item>2</item>

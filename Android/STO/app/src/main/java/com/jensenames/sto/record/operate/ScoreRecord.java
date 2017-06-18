@@ -70,6 +70,11 @@ public class ScoreRecord {
         totalScores.add(score);
     }
 
+    @SuppressWarnings("ResultOfMethodCallIgnored")
+    public static void delete() {
+        recordFile.delete();
+    }
+
     public static ArrayList<Score> getTotalScores() {
         return totalScores;
     }

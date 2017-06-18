@@ -14,8 +14,9 @@
         android:layout_marginBottom="@dimen/activity_vertical_margin"
         android:textSize="30sp"
         android:textStyle="bold"
+        android:textColor="@color/pathColor"
         android:gravity="center"
-        android:background="@drawable/textview_border"
+        android:background="@drawable/textview"
         android:id="@+id/countDown" />
 
     <TextView
@@ -28,8 +29,8 @@
         android:textSize="40sp"
         android:textStyle="bold"
         android:gravity="center"
-        android:textColor="#FF00FF"
-        android:background="@drawable/textview_border"
+        android:textColor="@color/pathColor"
+        android:background="@drawable/textview"
         android:id="@+id/expression_show"/>
     
     <LinearLayout
@@ -50,13 +51,13 @@
                 android:layout_weight="1"
                 android:layout_margin="5dp"
                 android:textSize="25sp"
-                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
                 android:gravity="center_vertical"
                 android:paddingLeft="10dp"
                 android:text="A:"
                 android:id="@+id/answerA"
-                android:background="@drawable/textview_border"
-                tools:ignore="HardcodedText,NestedWeights,RtlSymmetry" />
+                android:background="@drawable/textview"
+                tools:ignore="HardcodedText,NestedWeights,RtlHardcoded,RtlSymmetry" />
 
             <TextView
                 android:layout_width="fill_parent"
@@ -64,13 +65,13 @@
                 android:layout_weight="1"
                 android:layout_margin="5dp"
                 android:textSize="25sp"
-                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
                 android:gravity="center_vertical"
                 android:paddingLeft="10dp"
                 android:text="B:"
                 android:id="@+id/answerB"
-                android:background="@drawable/textview_border"
-                tools:ignore="HardcodedText,RtlSymmetry" />
+                android:background="@drawable/textview"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
         </LinearLayout>
 
         <LinearLayout
@@ -84,13 +85,13 @@
                 android:layout_weight="1"
                 android:layout_margin="5dp"
                 android:textSize="25sp"
-                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
                 android:gravity="center_vertical"
                 android:paddingLeft="10dp"
                 android:text="C:"
                 android:id="@+id/answerC"
-                android:background="@drawable/textview_border"
-                tools:ignore="HardcodedText,NestedWeights,RtlSymmetry" />
+                android:background="@drawable/textview"
+                tools:ignore="HardcodedText,NestedWeights,RtlHardcoded,RtlSymmetry" />
 
             <TextView
                 android:layout_width="fill_parent"
@@ -98,13 +99,13 @@
                 android:layout_weight="1"
                 android:layout_margin="5dp"
                 android:textSize="25sp"
-                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
                 android:gravity="center_vertical"
                 android:paddingLeft="10dp"
                 android:text="D:"
-                android:background="@drawable/textview_border"
+                android:background="@drawable/textview"
                 android:id="@+id/answerD"
-                tools:ignore="HardcodedText,RtlSymmetry" />
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

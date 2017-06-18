@@ -1,6 +1,8 @@
 package com.jensenames.sto.windows;
 
 import android.annotation.SuppressLint;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
@@ -22,6 +24,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.jensenames.sto.R;
+import com.jensenames.sto.adied.controls.TextToast;
 import com.jensenames.sto.record.bean.Degree;
 import com.jensenames.sto.record.operate.ScoreRecord;
 
@@ -50,12 +53,16 @@ public class SettingActivity extends PreferenceActivity
     @SuppressWarnings("deprecation")
     private void init() {
         preferences = getApplicationContext().getSharedPreferences("config", MODE_PRIVATE);
+
+        findPreference("setting_standard").setOnPreferenceClickListener(this);
+
         degree = (ListPreference) findPreference("setting_degree");
         degree.setOnPreferenceChangeListener(this);
 
-        findPreference("setting_check").setOnPreferenceClickListener(this);
+        findPreference("setting_history").setOnPreferenceClickListener(this);
+        findPreference("setting_calcu").setOnPreferenceClickListener(this);
         findPreference("setting_share").setOnPreferenceClickListener(this);
-        findPreference("setting_standard").setOnPreferenceClickListener(this);
+        findPreference("setting_clean").setOnPreferenceClickListener(this);
 
         findPreference("setting_tech").setOnPreferenceClickListener(this);
         findPreference("setting_target").setOnPreferenceClickListener(this);
@@ -183,9 +190,13 @@ public class SettingActivity extends PreferenceActivity
         LayoutInflater inflater = getLayoutInflater();
         View layout;
         switch(preference.getKey()) {
-            case "setting_check":
-                layout = inflater.inflate(R.layout.layout_score,(ViewGroup) findViewById(R.id.score));
-                new AlertDialog.Builder(this).setTitle(getString(R.string.setting_check)).setView(layout).show();
+            case "setting_history":
+                layout = inflater.inflate(R.layout.layout_history,(ViewGroup) findViewById(R.id.history));
+                new AlertDialog.Builder(this).setTitle(getString(R.string.setting_history)).setView(layout).show();
+                return true;
+            case "setting_calcu":
+                layout = inflater.inflate(R.layout.layout_statistics,(ViewGroup) findViewById(R.id.statistics));
+                new AlertDialog.Builder(this).setTitle(getString(R.string.setting_calcu)).setView(layout).show();
                 return true;
             case "setting_share":
                 Uri uri = Uri.fromFile(ScoreRecord.getRecordFile());
@@ -195,6 +206,9 @@ public class SettingActivity extends PreferenceActivity
                 share.putExtra(Intent.EXTRA_STREAM, uri);
                 share.setType("text/plain");
                 startActivity(Intent.createChooser(share, getResources().getString(R.string.share_text)));
+                return true;
+            case "setting_clean":
+                new CleanBox(this, R.style.AppDialog).show();
                 return true;
             case "setting_standard":
                 layout = inflater.inflate(R.layout.layout_standard,(ViewGroup) findViewById(R.id.standard));
@@ -221,5 +235,29 @@ public class SettingActivity extends PreferenceActivity
             mDelegate = AppCompatDelegate.create(this, null);
 
         return mDelegate;
+    }
+
+    private class CleanBox extends AlertDialog.Builder implements DialogInterface.OnClickListener {
+
+        CleanBox(Context context, int theme) {
+            super(context, theme);
+            this.setCancelable(false);
+            this.setTitle(getResources().getString(R.string.setting_clean));
+            this.setMessage(getResources().getString(R.string.clean_prompt));
+            this.setPositiveButton(getResources().getString(R.string.sure), this);
+            this.setNegativeButton(getResources().getString(R.string.cancel), this);
+        }
+
+        @Override
+        public void onClick(DialogInterface dialogInterface, int which) {
+            switch (which) {
+                case android.app.AlertDialog.BUTTON_POSITIVE:
+                    ScoreRecord.delete();
+                    TextToast.showTextToast(getResources().getString(R.string.clean_complete), getContext());
+                    break;
+                case android.app.AlertDialog.BUTTON_NEGATIVE:
+                    break;
+            }
+        }
     }
 }

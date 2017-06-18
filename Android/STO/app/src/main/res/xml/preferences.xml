@@ -3,6 +3,11 @@
 
     <PreferenceCategory>
 
+        <Preference
+            android:key="setting_standard"
+            android:title="@string/setting_standard"
+            android:icon="@mipmap/earth"/>
+
         <ListPreference
             android:key="setting_degree"
             android:title="@string/setting_degree"
@@ -15,9 +20,14 @@
     <PreferenceCategory>
 
         <Preference
-            android:key="setting_check"
-            android:title="@string/setting_check"
+            android:key="setting_history"
+            android:title="@string/setting_history"
             android:icon="@mipmap/history"/>
+
+        <Preference
+            android:key="setting_calcu"
+            android:title="@string/setting_calcu"
+            android:icon="@mipmap/calcu"/>
 
         <Preference
             android:key="setting_share"
@@ -25,9 +35,9 @@
             android:icon="@mipmap/share"/>
 
         <Preference
-            android:key="setting_standard"
-            android:title="@string/setting_standard"
-            android:icon="@mipmap/save"/>
+            android:key="setting_clean"
+            android:title="@string/setting_clean"
+            android:icon="@mipmap/clean"/>
     </PreferenceCategory>
 
     <PreferenceCategory>

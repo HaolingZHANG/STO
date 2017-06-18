@@ -13,8 +13,9 @@
         android:layout_marginBottom="@dimen/activity_vertical_margin"
         android:textSize="30sp"
         android:textStyle="bold"
+        android:textColor="@color/pathColor"
         android:gravity="center"
-        android:background="@drawable/textview_border"
+        android:background="@drawable/textview"
         android:id="@+id/countDown" />
 
     <com.jensenames.sto.plum.view.PlumView

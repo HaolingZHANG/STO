@@ -7,13 +7,6 @@
         <item>Fate</item>
     </string-array>
 
-    <string-array name="grade_options">
-        <item>Freshman</item>
-        <item>Sophomore</item>
-        <item>Junior</item>
-        <item>Senior</item>
-    </string-array>
-
     <string-array name="options_values">
         <item>1</item>
         <item>2</item>

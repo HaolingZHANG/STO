@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#666600</color>
-    <color name="colorPrimaryDark">#CCCC66</color>
+    <color name="colorPrimary">#CCCC66</color>
+    <color name="colorPrimaryDark">#666600</color>
     <color name="colorAccent">#CCFFCC</color>
+
+    <color name="pathColor">#FF00FF</color>
+
+    <color name="warnColor">#FF0000</color>
 </resources>

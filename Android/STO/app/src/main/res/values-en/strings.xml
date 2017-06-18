@@ -23,11 +23,6 @@
     <string name="wrong_number">Wrong, unconformity requirement!</string>
     <string name="quit_train">Withdrawal training with confirm?</string>
 
-    <string name="grade_1">Freshman</string>
-    <string name="grade_2">Sophomore</string>
-    <string name="grade_3">Junior</string>
-    <string name="grade_4">Senior</string>
-
     <string name="degree_1">Normal</string>
     <string name="degree_2">Difficult</string>
     <string name="degree_3">Hell</string>
@@ -48,17 +43,25 @@
     <string name="is_process">In the training program, please operate after training stop!</string>
     <string name="quit_train_message">If you withdrawal from training temporarily, the training result is not recorded!</string>
 
+    <string name="train_time">Time</string>
     <string name="train_name">ST.</string>
     <string name="train_degree">Level</string>
     <string name="completion_times">C.\nQty.</string>
+    <string name="total_count">T.\nQty.</string>
     <string name="right_count">AR.\nQty.</string>
+    <string name="wrong_count">AW.\nQty.</string>
     <string name="error_probability">AE.\nPR.</string>
 
+    <string name="clean_prompt">It cannot be restored after the record was cleared!</string>
+    <string name="clean_complete">Clean completely!</string>
+
+    <string name="setting_standard">Legend-symbols memorization</string>
     <string name="setting_degree">Difficulty</string>
 
-    <string name="setting_check">Personal achievement</string>
+    <string name="setting_history">Historical achievement</string>
+    <string name="setting_calcu">Achievement statistics</string>
     <string name="setting_send">Share results</string>
-    <string name="setting_standard">Legend-symbols memorization</string>
+    <string name="setting_clean">Clear results</string>
 
     <string name="setting_tech">Technique introduction</string>
     <string name="setting_target">Technique target</string>

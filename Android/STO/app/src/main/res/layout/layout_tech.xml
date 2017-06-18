@@ -34,6 +34,7 @@
                 android:gravity="center_vertical"
                 android:paddingLeft="32dp"
                 android:paddingRight="32dp"
+                android:textColor="@color/colorPrimary"
                 android:text="@string/calculate_run_balance_summary"/>
 
             <TextView
@@ -42,6 +43,7 @@
                 android:gravity="center_vertical"
                 android:paddingLeft="32dp"
                 android:paddingRight="32dp"
+                android:textColor="@color/colorPrimary"
                 android:text="@string/calculate_run_balance_tech"/>
 
             <TextView
@@ -58,6 +60,7 @@
                 android:gravity="center_vertical"
                 android:paddingLeft="32dp"
                 android:paddingRight="32dp"
+                android:textColor="@color/colorPrimary"
                 android:text="@string/plum_bleep_test_summary"/>
 
             <TextView
@@ -66,6 +69,7 @@
                 android:gravity="center_vertical"
                 android:paddingLeft="32dp"
                 android:paddingRight="32dp"
+                android:textColor="@color/colorPrimary"
                 android:text="@string/plum_bleep_test_tech"/>
 
             <TextView
@@ -82,6 +86,7 @@
                 android:gravity="center_vertical"
                 android:paddingLeft="32dp"
                 android:paddingRight="32dp"
+                android:textColor="@color/colorPrimary"
                 android:text="@string/legend_bleep_test_summary"/>
 
             <TextView
@@ -90,6 +95,7 @@
                 android:gravity="center_vertical"
                 android:paddingLeft="32dp"
                 android:paddingRight="32dp"
+                android:textColor="@color/colorPrimary"
                 android:text="@string/legend_bleep_test_tech"
                 android:layout_marginBottom="@dimen/activity_vertical_margin"/>
         </LinearLayout>

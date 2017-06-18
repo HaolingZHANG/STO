@@ -75,6 +75,7 @@ public class LegendLayout extends TrainLayout {
         answerD.setOnClickListener(this);
 
         currAnswer = new String[4];
+        finish = false;
     }
 
     public void setCount(int count) {
@@ -87,7 +88,6 @@ public class LegendLayout extends TrainLayout {
         singleTripCount = 0;
         wrong = 0;
         currRightAnswer = -1;
-        finish = false;
         next();
         thread = new Thread(new Runnable() {
 
@@ -133,6 +133,7 @@ public class LegendLayout extends TrainLayout {
             thread.stop();
             thread.interrupt();
         } catch (UnsupportedOperationException | NullPointerException e) {
+            e.printStackTrace();
             if(finish) {
                 TextToast.showTextToast(getResources().getString(R.string.complete_field) + Degree.getDegreeName(getContext()) +
                         getResources().getString(R.string.difficulty_field) + "-" +
@@ -248,6 +249,7 @@ public class LegendLayout extends TrainLayout {
             else
                 countDown.setText(String.valueOf(Degree.getDegree()));
         } else {
+            System.out.println("IN");
             TextToast.showTextToast(getResources().getString(R.string.complete_field) + Degree.getDegreeName(getContext()) +
                     getResources().getString(R.string.difficulty_field) + "-" +
                     getResources().getString(R.string.total_field) + count + getResources().getString(R.string.count_field) + "," +

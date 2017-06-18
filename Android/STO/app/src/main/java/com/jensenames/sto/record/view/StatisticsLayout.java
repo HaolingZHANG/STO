@@ -10,28 +10,34 @@ import android.widget.TextView;
 import com.jensenames.sto.R;
 import com.jensenames.sto.record.bean.Publicity;
 
-public class ScoreLayout extends LinearLayout {
+public class StatisticsLayout extends LinearLayout {
 
-    public ScoreLayout(Context context) {
+    public StatisticsLayout(Context context) {
         super(context);
         init();
     }
 
-    public ScoreLayout(Context context, AttributeSet attrs) {
+    public StatisticsLayout(Context context, AttributeSet attrs) {
         super(context, attrs);
         init();
     }
 
     private void init() {
-        View.inflate(getContext(), R.layout.layout_grid, this);
+        View.inflate(getContext(), R.layout.view_grid, this);
         GridLayout layout = (GridLayout) findViewById(R.id.grid);
 
         String[][] datas = dataChange(Publicity.getTotalPublicitys());
 
         for(int i = 0; i < 12; i++) {
             ((TextView) (layout.getChildAt(i + 18))).setText(datas[i][0]);
-            ((TextView) (layout.getChildAt(i + 31))).setText(datas[i][1]);
-            ((TextView) (layout.getChildAt(i + 44))).setText(datas[i][2]);
+            if(i > 3 && i < 8) {
+                //no data, because of no judge!
+                ((TextView) (layout.getChildAt(i + 31))).setText("-");
+                ((TextView) (layout.getChildAt(i + 44))).setText("-");
+            } else {
+                ((TextView) (layout.getChildAt(i + 31))).setText(datas[i][1]);
+                ((TextView) (layout.getChildAt(i + 44))).setText(datas[i][2]);
+            }
         }
     }
 

@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         isProcess = false;
         staticActivity = this;
 
-        new EnterBox(this).show();
+        new EnterBox(this, R.style.AppDialog).show();
     }
 
     @Override
@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.stop:
                 if(isProcess)
-                    new StopBox(this).show();
+                    new StopBox(this, R.style.AppDialog).show();
                 else
                     TextToast.showTextToast(getResources().getString(R.string.is_stop), getApplicationContext());
         }
@@ -168,8 +168,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         private EditText inputServer;
 
-        EnterBox(Context context) {
-            super(context);
+        EnterBox(Context context, int theme) {
+            super(context, theme);
             this.setCancelable(false);
             String title = "";
             switch (type) {
@@ -180,11 +180,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             initView(context,title);
         }
 
-        private void initView(Context context,String title) {
+        @SuppressWarnings("deprecation")
+        private void initView(Context context, String title) {
             this.setTitle(title);
             inputServer = new EditText(context);
             inputServer.setGravity(Gravity.CENTER);
             inputServer.setCursorVisible(true);
+            inputServer.setBackgroundResource(R.drawable.edittext);
+            inputServer.setTextColor(getResources().getColor(R.color.colorPrimaryDark));
             inputServer.setInputType(EditorInfo.TYPE_CLASS_PHONE);
             this.setView(inputServer);
             this.setPositiveButton(getResources().getString(R.string.sure), this);
@@ -266,8 +269,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private class StopBox extends AlertDialog.Builder implements DialogInterface.OnClickListener {
 
-        StopBox(Context context) {
-            super(context);
+        StopBox(Context context, int theme) {
+            super(context, theme);
             this.setCancelable(false);
             this.setTitle(getResources().getString(R.string.quit_train));
             this.setMessage(getResources().getString(R.string.quit_train_message));
