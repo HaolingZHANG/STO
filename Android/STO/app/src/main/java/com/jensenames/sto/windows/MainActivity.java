@@ -27,7 +27,6 @@ import com.jensenames.sto.adied.leger.service.VibratorPrompt;
 import com.jensenames.sto.adied.controls.TextToast;
 
 import java.lang.reflect.Field;
-import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -80,7 +79,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         isProcess = false;
         staticActivity = this;
 
-        new EnterBox(this, R.style.AppDialog).show();
+        try {
+            new EnterBox(staticActivity, R.style.AppDialog).show();
+        } catch (Exception e) {
+            System.out.println("Enter errors");
+        }
     }
 
     @Override
@@ -215,6 +218,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                                         field.setAccessible(false);
                                         calculateLayout.setLength(number);
                                         hide();
+                                        dialog.dismiss();
                                     } else {
                                         TextToast.showTextToast(getResources().getString(R.string.wrong_number), getApplicationContext());
                                         inputServer.setText("");
@@ -227,6 +231,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                                         field.setAccessible(false);
                                         plumLayout.setCount(number);
                                         hide();
+                                        dialog.dismiss();
                                     } else {
                                         TextToast.showTextToast(getResources().getString(R.string.wrong_number), getApplicationContext());
                                         inputServer.setText("");
@@ -239,6 +244,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                                         field.setAccessible(false);
                                         legendLayout.setCount(number);
                                         hide();
+                                        dialog.dismiss();
                                     } else {
                                         TextToast.showTextToast(getResources().getString(R.string.wrong_number), getApplicationContext());
                                         inputServer.setText("");
@@ -250,8 +256,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         }
                         break;
                     case AlertDialog.BUTTON_NEGATIVE:
-                        if(Objects.equals(inputServer.getText().toString(), ""))
+                        if(inputServer.getText().toString().equals("")) {
+                            dialog.dismiss();
                             returnEnter();
+                        }
                         inputServer.setText("");
                         break;
                     default:break;
@@ -279,7 +287,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
         @Override
-        public void onClick(DialogInterface dialogInterface, int which) {
+        public void onClick(DialogInterface dialog, int which) {
             switch (which) {
                 case AlertDialog.BUTTON_POSITIVE:
                     isProcess = false;
@@ -296,8 +304,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                             SoundPrompt.stopRing();
                             legendLayout.stop();
                     }
+                    dialog.dismiss();
                     break;
                 case AlertDialog.BUTTON_NEGATIVE:
+                    dialog.dismiss();
                     break;
             }
         }

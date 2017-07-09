@@ -29,7 +29,6 @@
             android:layout_gravity="center_vertical"
             android:layout_marginTop="@dimen/activity_vertical_margin"
             android:layout_marginBottom="@dimen/activity_vertical_margin"
-            android:layout_marginRight="64dp"
             android:textSize="15sp"
             android:textStyle="bold"
             android:textColor="@color/pathColor"
@@ -37,6 +36,18 @@
             android:background="@drawable/textview"
             android:id="@+id/explain"
             tools:ignore="InefficientWeight,RtlHardcoded" />
+
+        <TextView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textColor="@color/pathColor"
+            android:background="@drawable/textview"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:id="@+id/last"/>
     </LinearLayout>
 
     <LinearLayout

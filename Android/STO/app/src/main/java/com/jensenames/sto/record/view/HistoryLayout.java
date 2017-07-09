@@ -23,7 +23,9 @@ public class HistoryLayout extends ScrollView {
     }
 
     private void init() {
+        this.removeAllViews();
         LinearLayout layout = new LinearLayout(getContext());
+        layout.removeAllViews();
         LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
         layout.setLayoutParams(layoutParams);

@@ -8,6 +8,8 @@
     <string name="legend_bleep_test">BTL</string>
     <string name="setting">Setting</string>
 
+    <string name="no_permission">This application failed to obtain permissions!</string>
+
     <string name="calculate_run_balance_summary">\u3000AMR(Arithmetic Mean Running) has simulated the skill of orienteering athletes thinking and memory under hypoxia. Trainees should run with same stride length and stride frequency, and remember the numbers, mental arithmetic then choose the right answers. The reason why AMR needs trainees take the same stride length and stride frequency in running is that keeping a good running rhythm in orienteering is easier to effectively perceive the environment.</string>
     <string name="calculate_run_balance_tech">\u3000Asking that you can not be changed from running to walking in the course of the examination and answer, as far as possible to complete all the problems at the same time.</string>
     <string name="plum_bleep_test_summary">\u3000BTP(Bleep Test in Plum-blossom) has simulated the skill of orienteering athletes judging and remembering the direction. In the course of hectometer-orientation, athletes usually keep in mind to their current position, the current control point, and the next control point. Trainees should start training on the basis of vibration in smartphone and reach the next control point before each vibration. The application only shows the route which the trainee will run next except for the first time. The length of each plum-blossom side is 20M. Please control the time of next round according to the music of multi-stage fitness test.</string>

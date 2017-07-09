@@ -29,6 +29,7 @@ public class LegendLayout extends TrainLayout {
 
     private TextView countDown;
     private TextView explain;
+    private TextView last;
 
     private ImageView answerA;
     private ImageView answerB;
@@ -63,6 +64,7 @@ public class LegendLayout extends TrainLayout {
         View.inflate(context, R.layout.layout_legend, this);
         countDown = (TextView) findViewById(R.id.countDown);
         explain = (TextView) findViewById(R.id.explain);
+        last = (TextView) findViewById(R.id.last);
 
         answerA = (ImageView) findViewById(R.id.legendA);
         answerB = (ImageView) findViewById(R.id.legendB);
@@ -79,6 +81,7 @@ public class LegendLayout extends TrainLayout {
     }
 
     public void setCount(int count) {
+        last.setText(String.valueOf(count * 2));
         this.count = count * 2 * Degree.getDegree();
         countDown.setText(String.valueOf(Degree.getDegree()));
     }
@@ -98,8 +101,10 @@ public class LegendLayout extends TrainLayout {
                 public void handleMessage(Message msg) {
                     super.handleMessage(msg);
                     singleTripCount = 0;
-                    if(MainActivity.isProcess())
+                    if(MainActivity.isProcess()) {
                         MainActivity.call();
+                        last.setText(String.valueOf(Integer.parseInt(String.valueOf(last.getText())) - 1));
+                    }
                     countDown.setText(String.valueOf(Integer.parseInt(String.valueOf(countDown.getText())) - 1));
                 }
             };
@@ -249,7 +254,6 @@ public class LegendLayout extends TrainLayout {
             else
                 countDown.setText(String.valueOf(Degree.getDegree()));
         } else {
-            System.out.println("IN");
             TextToast.showTextToast(getResources().getString(R.string.complete_field) + Degree.getDegreeName(getContext()) +
                     getResources().getString(R.string.difficulty_field) + "-" +
                     getResources().getString(R.string.total_field) + count + getResources().getString(R.string.count_field) + "," +

@@ -8,6 +8,8 @@
     <string name="legend_bleep_test">图例式莱格尔</string>
     <string name="setting">设置</string>
 
+    <string name="no_permission">应用没有获取到权限！</string>
+
     <string name="calculate_run_balance_summary">\u3000\u3000简单算数平均跑是模拟定向运动员在缺氧运动中的定期思维能力。受训者需尽可能以相同的步幅和步频奔跑并进行简单数学题的记背、心算以及选择正确答案。之所以要以相同的步幅和步频奔跑，是因为在定向越野运动中保持良好的行进节奏有利于对周围环境进行有效感知。</string>
     <string name="calculate_run_balance_tech">\u3000\u3000要求不能在看题或答题的过程中从跑姿变为步态，尽量在跑完全程的同时做完所有的题。</string>
     <string name="plum_bleep_test_summary">\u3000\u3000梅花定向式莱格尔模拟定向运动员在百米定向中对方向的判断与记忆能力。运动员在进行百米定向的过程中，通常会时刻牢记自己当前位置，将要到达的控制点以及下一个控制点位置。受训者依据震动开始训练，每一次震动到达下一个控制点。手机应用中只显示运动员接下来跑的路线，直到结束。每条梅花边的长度为20M，受训者根据莱格尔的音乐控制往返时间。</string>

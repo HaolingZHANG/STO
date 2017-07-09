@@ -34,7 +34,7 @@ public class HistoryView extends LinearLayout {
 
     public void setData(String stoData) {
         String[] data = stoData.split(",");
-        ((TextView)findViewById(R.id.time)).setText(data[0]);
+        ((TextView)findViewById(R.id.time)).setText(data[0].replace(" ", "\n"));
         ((TextView)findViewById(R.id.complete_count)).setText(data[3]);
         ((TextView)findViewById(R.id.wrong_count)).setText(data[4]);
         switch (data[1]) {

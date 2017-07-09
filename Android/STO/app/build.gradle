@@ -7,7 +7,8 @@ android {
     defaultConfig {
         applicationId "com.jensenames.sto"
         minSdkVersion 18
-        targetSdkVersion 25
+        //noinspection OldTargetApi
+        targetSdkVersion 22
         versionCode 1
         versionName "1.0"
         //noinspection GrDeprecatedAPIUsage
