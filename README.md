@@ -32,12 +32,39 @@
 |总趟数（来+回）|20趟 - 100趟|
 |折返长度|20M|
 
-　　目前，该软件仅支持Android手机终端，完全支持中文，美式英语翻译不完善，暂不支持其他语种。 后续方法制作人正在紧张且积极的设计与研发。同时也诚邀不同国籍不同语言的定向粉丝参与设计与研发。此外，该软件虽然为免费软件，但是每一步必须经过严格的审核以及苛刻的调试，以保证能够正确且准确的训练以及教育他人。
-
-
+　　目前，该软件仅支持Android手机终端，完全支持中文，美式英语翻译不完善，暂不支持其他语种。后续方法制作人正在紧张且积极的设计与研发。同时也诚邀不同国籍不同语言的定向粉丝参与设计与研发。此外，该软件虽然为免费软件，但是每一步必须经过严格的审核以及苛刻的调试，以保证能够正确且准确的训练以及教育他人。—— 张颢龄
 
 ## English version（United State）
 ### Introduction
 　The full name of STO is Special Training in Orienteering. The software is used to solve the problem of training and quantitative selection of the entry-level orienteering athletes in a region where lack orienteering map and can be developed (To change the tendency of coach that the only standard in training and selection is long-distance running ability).   
 　STO integrates three original methods currently，being called Arithmetic Mean Running (AMR), Bleep Test in Plum-blossom (BTP) and Bleep Test with Legend-symbol (BTL) respectively.  
-　（1）AMR：AMR has simulated the skill of orienteering athletes thinking and memory under hypoxia. Trainees should run with same stride length and stride frequency, and remember the numbers, mental arithmetic then choose the right answer. The reason why AMR needs trainees take the same stride length and stride frequency in running is that keeping a good running rhythm in orienteering is easier to effectively perceive the environment.The technical level is based on the difficulty and complexity of orienteering maps. The simplest value and the hardest value correspond to the maximum theoretical distance of each simple sums and the minimum theoretical distance of each simple sums of reading the field orienteering map each time. In this paper, the minimum difficulty and the maximum difficulty of setting parameters are simple sums in 100M and simple sums in 40M.
+　（1）AMR：AMR has simulated the skill of orienteering athletes thinking and memory under hypoxia. Trainees should run with same stride length and stride frequency, and remember the numbers, mental arithmetic then choose the right answer. The reason why AMR needs trainees take the same stride length and stride frequency in running is that keeping a good running rhythm in orienteering is easier to effectively perceive the environment.The technical level is based on the difficulty and complexity of orienteering maps. The simplest value and the hardest value correspond to the maximum theoretical distance of each simple sums and the minimum theoretical distance of each simple sums of reading the field orienteering map each time. The parameters of this method currently set in STO are shown in the table below:
+ 
+|Object|All value|
+|:-----:|:-----:|
+|Single distance|100M -> 80M -> 50M -> 40M|
+|Total distance|800M - 8000M|
+|Arithmetic equation|A × B + C|
+|A|[0, 9]，random|
+|B|[0, 9]，random|
+|C|[-99, 99]，random| 
+
+　（2）BTP： BTP has simulated the skill of orienteering athletes judging and remembering the direction. In the course of hectometer-orienteering, athletes usually keep in mind to their current position, the current control point, and the next control point. Participants should start training on the basis of vibration in the smartphone and reach the next control point before each vibration. The technical level is based on the number of control points in hectometer-orientation for a single memory, and the intensity of anaerobic training.The parameters of this method currently set in STO are shown in the table below: 
+
+|Object|All value|
+|:-----:|:-----:|
+|The single side length of the BTP|20M|
+|Total control points|20个 - 100个|
+|Direction of advance|Non repeated, random|
+|The initial level of the multi-stage fitness test|Level 3(16)，Level 5(33)，Level 7(52)，Level 8(62)| 
+
+　（3）BTL： BTL has simulated the skill of orienteering athletes recognize orienteering legend-symbols under hypoxia. During each sprint of the training, participants must complete some questions of legend-symbol selection which the completion number is displayed in the upper left corner of the screen, the correct prompt will be given immediately after the error is selected. Due to the low skill about legend-symbols for the participants who is orienteering beginner, it is suggested that the participants need to remember legend-symbols before training.The technical level of the method is based on the number of legends that are identified and analyzed in a single reading field of orienteering map. The parameters of this method currently set in STO are shown in the table below: 
+
+|Object|All value|
+|:-----:|:-----:|
+|The number of legend-symbol selection|1 -> 2 -> 3 -> 4|
+|Total cumulative laps|20 - 100|
+|The single side length of the BTL|20M|
+
+　At present, the software supports only Android mobile terminals, fully support Chinese, English(United State) translation is not perfect, do not support other languages. The producer of the follow-up method is busy and active in design and research. We also invite orienteering fans of different nationalities and languages to participate in the design and research. In addition, although the software is free, each step must be strictly reviewed and rigorous debugging, to ensure that the correct and accurate training and education of others. —— Haoling ZHANG
+
