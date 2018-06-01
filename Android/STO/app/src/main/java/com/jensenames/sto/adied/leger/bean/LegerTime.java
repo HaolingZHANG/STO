@@ -15,9 +15,15 @@ public class LegerTime {
     };
 
     public static int getIntervalTime(int currentCount, int operationTime) {
+        System.out.println("currentCount = " + currentCount + "; operationTime = " + operationTime);
         for(int i = 0; i < frequencyHierarchy.length; i++)
-            if(currentCount < frequencyHierarchy[i])
-                return intervalTime[i] + operationTime;
+            if(currentCount < frequencyHierarchy[i]) {
+                int temp = intervalTime[i] - operationTime;
+                if (temp < 2000)
+                    return 2000;
+                else
+                    return temp;
+            }
         return -1;
     }
 }

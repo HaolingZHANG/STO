@@ -113,7 +113,7 @@ public class LegendLayout extends TrainLayout {
             public void run() {
                 if(Integer.parseInt(String.valueOf(countDown.getText())) > 0 && MainActivity.isProcess()) {
 
-                    int intervalTime = LegerTime.getIntervalTime(i, 0);
+                    int intervalTime = LegerTime.getIntervalTime(i + 32, 0);
                     SoundPrompt.ring();
                     if(intervalTime != -1)
                         handler.postDelayed(this, intervalTime);

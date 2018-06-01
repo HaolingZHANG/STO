@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textColor="@color/colorPrimary"
-            android:text="@string/amr_degree_1" />
+            android:text="@string/amr_degreex_1" />
     </TableRow>
 
     <TableRow
@@ -48,7 +48,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textColor="@color/colorPrimary"
-            android:text="@string/amr_degree_2" />
+            android:text="@string/amr_degreex_2" />
     </TableRow>
 
     <TableRow
@@ -66,7 +66,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textColor="@color/colorPrimary"
-            android:text="@string/amr_degree_3" />
+            android:text="@string/amr_degreex_3" />
     </TableRow>
 
     <TableRow
@@ -84,7 +84,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textColor="@color/colorPrimary"
-            android:text="@string/amr_degree_4" />
+            android:text="@string/amr_degreex_4" />
     </TableRow>
 
     <TextView
@@ -110,7 +110,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textColor="@color/colorPrimary"
-            android:text="@string/btp_degree_1"/>
+            android:text="@string/btp_degreex_1"/>
     </TableRow>
 
     <TableRow
@@ -128,7 +128,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textColor="@color/colorPrimary"
-            android:text="@string/btp_degree_2" />
+            android:text="@string/btp_degreex_2" />
     </TableRow>
 
     <TableRow
@@ -146,7 +146,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textColor="@color/colorPrimary"
-            android:text="@string/btp_degree_3" />
+            android:text="@string/btp_degreex_3" />
     </TableRow>
 
     <TableRow
@@ -164,7 +164,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textColor="@color/colorPrimary"
-            android:text="@string/btp_degree_4" />
+            android:text="@string/btp_degreex_4" />
     </TableRow>
 
     <TextView
@@ -190,7 +190,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textColor="@color/colorPrimary"
-            android:text="@string/btl_degree_1"/>
+            android:text="@string/btl_degreex_1"/>
     </TableRow>
 
     <TableRow
@@ -208,7 +208,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textColor="@color/colorPrimary"
-            android:text="@string/btl_degree_2"/>
+            android:text="@string/btl_degreex_2"/>
     </TableRow>
 
     <TableRow
@@ -226,7 +226,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textColor="@color/colorPrimary"
-            android:text="@string/btl_degree_3" />
+            android:text="@string/btl_degreex_3" />
     </TableRow>
 
     <TableRow
@@ -245,6 +245,6 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textColor="@color/colorPrimary"
-            android:text="@string/btl_degree_4" />
+            android:text="@string/btl_degreex_4" />
     </TableRow>
 </TableLayout>

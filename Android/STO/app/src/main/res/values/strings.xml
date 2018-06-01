@@ -8,6 +8,8 @@
     <string name="legend_bleep_test">图例式莱格尔</string>
     <string name="setting">设置</string>
 
+    <string name="copyright">软件著作权归重庆理工大学所有</string>
+
     <string name="no_permission">应用没有获取到权限！</string>
 
     <string name="calculate_run_balance_summary">\u3000\u3000简单算数平均跑是模拟定向运动员在缺氧运动中的定期思维能力。受训者需尽可能以相同的步幅和步频奔跑并进行简单数学题的记背、心算以及选择正确答案。之所以要以相同的步幅和步频奔跑，是因为在定向越野运动中保持良好的行进节奏有利于对周围环境进行有效感知。</string>
@@ -81,20 +83,20 @@
     <string name="warn1">仅供学术交流使用</string>
     <string name="warn2">非制作人同意不可他用</string>
 
-    <string name="amr_degree_1">100M/题</string>
-    <string name="amr_degree_2">80M/题</string>
-    <string name="amr_degree_3">50M/题</string>
-    <string name="amr_degree_4">40M/题</string>
+    <string name="amr_degreex_1">1HM/题</string>
+    <string name="amr_degreex_2">80M/题</string>
+    <string name="amr_degreex_3">50M/题</string>
+    <string name="amr_degreex_4">40M/题</string>
 
-    <string name="btp_degree_1">从第3等级开始</string>
-    <string name="btp_degree_2">从第5等级开始</string>
-    <string name="btp_degree_3">从第7等级开始</string>
-    <string name="btp_degree_4">从第8等级开始</string>
+    <string name="btp_degreex_1">从第4等级开始</string>
+    <string name="btp_degreex_2">从第6等级开始</string>
+    <string name="btp_degreex_3">从第8等级开始</string>
+    <string name="btp_degreex_4">从第9等级开始</string>
 
-    <string name="btl_degree_1">每次1道题</string>
-    <string name="btl_degree_2">每次2道题</string>
-    <string name="btl_degree_3">每次3道题</string>
-    <string name="btl_degree_4">每次4道题</string>
+    <string name="btl_degreex_1">每次1道题</string>
+    <string name="btl_degreex_2">每次2道题</string>
+    <string name="btl_degreex_3">每次3道题</string>
+    <string name="btl_degreex_4">每次4道题</string>
 
     <string name="record_file_create_error">记录文件创建不成功！</string>
     <string name="record_file_read_error">记录文件读取不成功！</string>
@@ -103,7 +105,7 @@
     <string name="record_file_train_record">训练报告</string>
     <string name="record_file_text">请选择邮件发送软件</string>
 
-    <string name="calculate_degree_1_intro">平均每100米一道题</string>
+    <string name="calculate_degree_1_intro">平均每1H米一道题</string>
     <string name="calculate_degree_2_intro">平均每80米一道题</string>
     <string name="calculate_degree_3_intro">平均每50米一道题</string>
     <string name="calculate_degree_4_intro">平均每40米一道题</string>
@@ -285,17 +287,15 @@
     <string name="SPECIAL_PEOPLE_CREATION">527</string>
     <string name="s527">特殊人造物</string>
 
-    <!--技术符号：6 signs-->
+    <!--技术符号：5 signs-->
     <string name="NORTH_LINE">601</string>
     <string name="s601">磁北线</string>
-    <string name="AUXILIARY_LINE">602</string>
-    <string name="s602">辅助线</string>
-    <string name="PASS_DOT">603</string>
-    <string name="s603">必须通过点</string>
-    <string name="TEMPORARY_BUILD_AREA">604</string>
-    <string name="s604">临时建立区、 禁区</string>
-    <string name="MEDICAL_TREATMENT_SITE">605</string>
-    <string name="s605">医疗站</string>
-    <string name="WATER_SITE">606</string>
-    <string name="s606">水站</string>
+    <string name="PASS_DOT">602</string>
+    <string name="s602">必须通过点</string>
+    <string name="TEMPORARY_BUILD_AREA">602</string>
+    <string name="s603">临时建立区、 禁区</string>
+    <string name="MEDICAL_TREATMENT_SITE">604</string>
+    <string name="s604">医疗站</string>
+    <string name="WATER_SITE">605</string>
+    <string name="s605">水站</string>
 </resources>

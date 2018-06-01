@@ -10,7 +10,7 @@ public class Legend {
     private String name;
 
     private static ArrayList<ArrayList<Legend>> legends;
-    public static final int[] signsLength = {15, 9, 18, 9, 27, 6};
+    public static final int[] signsLength = {15, 9, 18, 9, 27, 5};
 
     public static ArrayList<ArrayList<Legend>> newInstance(Context context) {
         if(legends == null) {

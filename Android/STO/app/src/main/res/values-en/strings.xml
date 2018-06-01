@@ -8,6 +8,8 @@
     <string name="legend_bleep_test">BTL</string>
     <string name="setting">Setting</string>
 
+    <string name="copyright">Copyright @ CQUT</string>
+
     <string name="no_permission">This application failed to obtain permissions!</string>
 
     <string name="calculate_run_balance_summary">\u3000AMR(Arithmetic Mean Running) has simulated the skill of orienteering athletes thinking and memory under hypoxia. Trainees should run with same stride length and stride frequency, and remember the numbers, mental arithmetic then choose the right answers. The reason why AMR needs trainees take the same stride length and stride frequency in running is that keeping a good running rhythm in orienteering is easier to effectively perceive the environment.</string>
@@ -82,20 +84,20 @@
     <string name="warn2">The right to interpret is owned by the designer</string>
 
 
-    <string name="amr_degree_1">100M/simple sums</string>
-    <string name="amr_degree_2">80M/simple sums</string>
-    <string name="amr_degree_3">50M/simple sums</string>
-    <string name="amr_degree_4">40M/simple sums</string>
+    <string name="amr_degreex_1">1HM/simple sums</string>
+    <string name="amr_degreex_2">80M/simple sums</string>
+    <string name="amr_degreex_3">50M/simple sums</string>
+    <string name="amr_degreex_4">40M/simple sums</string>
 
-    <string name="btp_degree_1">Begin at Level 3</string>
-    <string name="btp_degree_2">Begin at Level 5</string>
-    <string name="btp_degree_3">Begin at Level 7</string>
-    <string name="btp_degree_4">Begin at Level 8</string>
+    <string name="btp_degreex_1">Begin at Level 4</string>
+    <string name="btp_degreex_2">Begin at Level 6</string>
+    <string name="btp_degreex_3">Begin at Level 8</string>
+    <string name="btp_degreex_4">Begin at Level 9</string>
 
-    <string name="btl_degree_1">1 choice question/time</string>
-    <string name="btl_degree_2">2 choice questions/time</string>
-    <string name="btl_degree_3">3 choice questions/time</string>
-    <string name="btl_degree_4">4 choice questions/time</string>
+    <string name="btl_degreex_1">1 choice question/time</string>
+    <string name="btl_degreex_2">2 choice questions/time</string>
+    <string name="btl_degreex_3">3 choice questions/time</string>
+    <string name="btl_degreex_4">4 choice questions/time</string>
 
     <string name="record_file_create_error">The record file create failed!</string>
     <string name="record_file_read_error">The record file read failed!</string>
@@ -104,7 +106,7 @@
     <string name="record_file_train_record">Training Record</string>
     <string name="record_file_text">Please select the mail delivery software</string>
 
-    <string name="calculate_degree_1_intro">An average of 100 meters per session</string>
+    <string name="calculate_degree_1_intro">An average of 1H meters per session</string>
     <string name="calculate_degree_2_intro">An average of 80 meters per session</string>
     <string name="calculate_degree_3_intro">An average of 50 meters per session</string>
     <string name="calculate_degree_4_intro">An average of 40 meters per session</string>
@@ -291,14 +293,12 @@
     <!--Technology sign : 6 signs-->
     <string name="NORTH_LINE">601</string>
     <string name="s601">North Line</string>
-    <string name="AUXILIARY_LINE">602</string>
-    <string name="s602">Subline</string>
-    <string name="PASS_DOT">603</string>
-    <string name="s603">Pass dot</string>
-    <string name="TEMPORARY_BUILD_AREA">604</string>
-    <string name="s604">Temporary establishment area</string>
-    <string name="MEDICAL_TREATMENT_SITE">605</string>
-    <string name="s605">Medical station</string>
-    <string name="WATER_SITE">606</string>
-    <string name="s606">Water station</string>
+    <string name="PASS_DOT">602</string>
+    <string name="s602">Pass dot</string>
+    <string name="TEMPORARY_BUILD_AREA">603</string>
+    <string name="s603">Temporary establishment area</string>
+    <string name="MEDICAL_TREATMENT_SITE">604</string>
+    <string name="s604">Medical station</string>
+    <string name="WATER_SITE">605</string>
+    <string name="s605">Water station</string>
 </resources>

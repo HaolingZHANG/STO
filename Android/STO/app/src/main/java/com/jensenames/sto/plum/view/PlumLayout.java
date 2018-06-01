@@ -59,7 +59,7 @@ public class PlumLayout extends TrainLayout {
 
     @Override
     public void start() {
-        final int[] startI = {15, 32, 51, 61};
+        final int[] startI = {32, 51, 72, 83};
         thread = new Thread(new Runnable() {
 
             private int i = 1;

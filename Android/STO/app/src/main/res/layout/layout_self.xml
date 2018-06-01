@@ -126,7 +126,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:gravity="center_vertical"
-                    android:text="zhldoing@163.com"
+                    android:text="hlzchn@gmail.com"
                     android:textColor="@color/colorPrimary"
                     tools:ignore="HardcodedText" />
             </TableRow>

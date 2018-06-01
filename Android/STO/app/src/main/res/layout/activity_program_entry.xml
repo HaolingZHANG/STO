@@ -72,5 +72,13 @@
                     android:id="@+id/legend_bleep_test"/>
             </LinearLayout>
         </ScrollView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/copyright"
+            android:textColor="@color/colorPrimaryDark"
+            android:paddingBottom="@dimen/copyright_bottom"
+            android:gravity="center|bottom"/>
     </android.widget.LinearLayout>
 </android.support.v4.widget.DrawerLayout>
