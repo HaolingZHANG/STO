@@ -3,14 +3,14 @@ apply plugin: 'com.android.application'
 //noinspection GroovyMissingReturnStatement
 android {
     compileSdkVersion 25
-    buildToolsVersion '26.0.2'
+    buildToolsVersion '25.0.2'
     defaultConfig {
         applicationId "com.jensenames.sto"
         minSdkVersion 18
         //noinspection OldTargetApi
         targetSdkVersion 22
         versionCode 1
-        versionName "1.1"
+        versionName "1.0"
         //noinspection GrDeprecatedAPIUsage
         generatedDensities = []
     }

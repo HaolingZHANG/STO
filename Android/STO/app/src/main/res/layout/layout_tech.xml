@@ -8,6 +8,16 @@
     android:stretchColumns="*"
     android:id="@+id/tech">
 
+    <com.jensenames.sto.adied.controls.DiagramView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cut_off_rule"
+        android:background="@color/colorPrimary"/>
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -35,7 +45,7 @@
                 android:paddingLeft="32dp"
                 android:paddingRight="32dp"
                 android:textColor="@color/colorPrimary"
-                android:text="@string/calculate_run_balance_summary"/>
+                android:text="@string/calculate_run_balance_summaryx"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -44,7 +54,7 @@
                 android:paddingLeft="32dp"
                 android:paddingRight="32dp"
                 android:textColor="@color/colorPrimary"
-                android:text="@string/calculate_run_balance_tech"/>
+                android:text="@string/calculate_run_balance_techx"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -61,7 +71,7 @@
                 android:paddingLeft="32dp"
                 android:paddingRight="32dp"
                 android:textColor="@color/colorPrimary"
-                android:text="@string/plum_bleep_test_summary"/>
+                android:text="@string/plum_bleep_test_summaryx"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -70,7 +80,7 @@
                 android:paddingLeft="32dp"
                 android:paddingRight="32dp"
                 android:textColor="@color/colorPrimary"
-                android:text="@string/plum_bleep_test_tech"/>
+                android:text="@string/plum_bleep_test_techx"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -87,7 +97,7 @@
                 android:paddingLeft="32dp"
                 android:paddingRight="32dp"
                 android:textColor="@color/colorPrimary"
-                android:text="@string/legend_bleep_test_summary"/>
+                android:text="@string/legend_bleep_test_summaryx"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -96,7 +106,7 @@
                 android:paddingLeft="32dp"
                 android:paddingRight="32dp"
                 android:textColor="@color/colorPrimary"
-                android:text="@string/legend_bleep_test_tech"
+                android:text="@string/legend_bleep_test_techx"
                 android:layout_marginBottom="@dimen/activity_vertical_margin"/>
         </LinearLayout>
     </ScrollView>

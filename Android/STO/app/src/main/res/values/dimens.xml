@@ -5,6 +5,7 @@
     <dimen name="max_circle_stroke_width">2dp</dimen>
     <dimen name="copyright_bottom">8dp</dimen>
     <dimen name="margin">3dp</dimen>
+    <dimen name="cut_off_rule">2dp</dimen>
     <dimen name="max_stroke_width">4dp</dimen>
     <dimen name="score_width">40dp</dimen>
     <dimen name="time_width">90dp</dimen>
