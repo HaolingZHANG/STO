@@ -45,7 +45,7 @@
                 android:paddingLeft="32dp"
                 android:paddingRight="32dp"
                 android:textColor="@color/colorPrimary"
-                android:text="@string/calculate_run_balance_summaryx"/>
+                android:text="@string/calculate_run_balance_summary"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -54,7 +54,7 @@
                 android:paddingLeft="32dp"
                 android:paddingRight="32dp"
                 android:textColor="@color/colorPrimary"
-                android:text="@string/calculate_run_balance_techx"/>
+                android:text="@string/calculate_run_balance_tech"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -71,7 +71,7 @@
                 android:paddingLeft="32dp"
                 android:paddingRight="32dp"
                 android:textColor="@color/colorPrimary"
-                android:text="@string/plum_bleep_test_summaryx"/>
+                android:text="@string/plum_bleep_test_summary"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -80,7 +80,7 @@
                 android:paddingLeft="32dp"
                 android:paddingRight="32dp"
                 android:textColor="@color/colorPrimary"
-                android:text="@string/plum_bleep_test_techx"/>
+                android:text="@string/plum_bleep_test_tech"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -97,7 +97,7 @@
                 android:paddingLeft="32dp"
                 android:paddingRight="32dp"
                 android:textColor="@color/colorPrimary"
-                android:text="@string/legend_bleep_test_summaryx"/>
+                android:text="@string/legend_bleep_test_summary"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -106,7 +106,7 @@
                 android:paddingLeft="32dp"
                 android:paddingRight="32dp"
                 android:textColor="@color/colorPrimary"
-                android:text="@string/legend_bleep_test_techx"
+                android:text="@string/legend_bleep_test_tech"
                 android:layout_marginBottom="@dimen/activity_vertical_margin"/>
         </LinearLayout>
     </ScrollView>

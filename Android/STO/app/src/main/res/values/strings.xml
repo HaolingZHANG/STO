@@ -12,12 +12,12 @@
 
     <string name="no_permission">应用没有获取到权限！</string>
 
-    <string name="calculate_run_balance_summaryx">\u3000\u3000简单算数平均跑是模拟定向运动员在缺氧运动中的定期思维能力。受训者需尽可能以相同的步幅和步频奔跑并进行简单数学题的记背、心算以及选择正确答案。之所以要以相同的步幅和步频奔跑，是因为在定向越野运动中保持良好的行进节奏有利于对周围环境进行有效感知。</string>
-    <string name="calculate_run_balance_techx">\u3000\u3000要求不能在看题或答题的过程中从跑姿变为步态，尽量在跑完全程的同时做完所有的题。</string>
-    <string name="plum_bleep_test_summaryx">\u3000\u3000梅花定向式莱格尔模拟定向运动员在百米定向中对方向的判断与记忆能力。运动员在进行百米定向的过程中，通常会时刻牢记自己当前位置，将要到达的控制点以及下一个控制点位置。受训者依据震动开始训练，每一次震动到达下一个控制点。手机应用中只显示运动员接下来跑的路线，直到结束。每条梅花边的长度为20M，受训者根据莱格尔的音乐控制往返时间。</string>
-    <string name="plum_bleep_test_techx">\u3000\u3000要求跟上正在绘制的当前路线和下一条路线（浅黄色），手机震动表示开始当前路线。请提前判定转身方向，跟不上节奏请重来。</string>
-    <string name="legend_bleep_test_summaryx">\u3000\u3000图例式莱格尔是模拟在缺氧的定向过程中对定向地图的认知能力。在该训练的每一次冲刺中，受训者必须做完应用左上角所示数量的图例选择题，选择错误后会即时得到正确的提示。两端点距离为20M，受训者根据莱格尔的音乐控制往返时间。</string>
-    <string name="legend_bleep_test_techx">\u3000\u3000要求在每趟莱格尔中，做对应界面左上方数量的题目，并有效完成莱格尔。做题的时机是很重要的，该时机被要求在非端点处进行。</string>
+    <string name="calculate_run_balance_summary">\u3000\u3000简单算数平均跑是模拟定向运动员在缺氧运动中的定期思维能力。受训者需尽可能以相同的步幅和步频奔跑并进行简单数学题的记背、心算以及选择正确答案。之所以要以相同的步幅和步频奔跑，是因为在定向越野运动中保持良好的行进节奏有利于对周围环境进行有效感知。</string>
+    <string name="calculate_run_balance_tech">\u3000\u3000要求不能在看题或答题的过程中从跑姿变为步态，尽量在跑完全程的同时做完所有的题。</string>
+    <string name="plum_bleep_test_summary">\u3000\u3000梅花定向式莱格尔模拟定向运动员在百米定向中对方向的判断与记忆能力。运动员在进行百米定向的过程中，通常会时刻牢记自己当前位置，将要到达的控制点以及下一个控制点位置。受训者依据震动开始训练，每一次震动到达下一个控制点。手机应用中只显示运动员接下来跑的路线，直到结束。每条梅花边的长度为20M，受训者根据莱格尔的音乐控制往返时间。</string>
+    <string name="plum_bleep_test_tech">\u3000\u3000要求跟上正在绘制的当前路线和下一条路线（浅黄色），手机震动表示开始当前路线。请提前判定转身方向，跟不上节奏请重来。</string>
+    <string name="legend_bleep_test_summary">\u3000\u3000图例式莱格尔是模拟在缺氧的定向过程中对定向地图的认知能力。在该训练的每一次冲刺中，受训者必须做完应用左上角所示数量的图例选择题，选择错误后会即时得到正确的提示。两端点距离为20M，受训者根据莱格尔的音乐控制往返时间。</string>
+    <string name="legend_bleep_test_tech">\u3000\u3000要求在每趟莱格尔中，做对应界面左上方数量的题目，并有效完成莱格尔。做题的时机是很重要的，该时机被要求在非端点处进行。</string>
 
     <string name="enter_length">总跑动距离（800~8000）：</string>
     <string name="enter_count">总控制点数（20~100）：</string>
@@ -83,20 +83,20 @@
     <string name="warn1">仅供学术交流使用</string>
     <string name="warn2">非制作人同意不可他用</string>
 
-    <string name="amr_degreex_1">1HM/题</string>
-    <string name="amr_degreex_2">80M/题</string>
-    <string name="amr_degreex_3">50M/题</string>
-    <string name="amr_degreex_4">40M/题</string>
+    <string name="amr_degree_1">1HM/题</string>
+    <string name="amr_degree_2">80M/题</string>
+    <string name="amr_degree_3">50M/题</string>
+    <string name="amr_degree_4">40M/题</string>
 
-    <string name="btp_degreex_1">从第4等级开始</string>
-    <string name="btp_degreex_2">从第6等级开始</string>
-    <string name="btp_degreex_3">从第8等级开始</string>
-    <string name="btp_degreex_4">从第9等级开始</string>
+    <string name="btp_degree_1">从第4等级开始</string>
+    <string name="btp_degree_2">从第6等级开始</string>
+    <string name="btp_degree_3">从第8等级开始</string>
+    <string name="btp_degree_4">从第9等级开始</string>
 
-    <string name="btl_degreex_1">每次1道题</string>
-    <string name="btl_degreex_2">每次2道题</string>
-    <string name="btl_degreex_3">每次3道题</string>
-    <string name="btl_degreex_4">每次4道题</string>
+    <string name="btl_degree_1">每次1道题</string>
+    <string name="btl_degree_2">每次2道题</string>
+    <string name="btl_degree_3">每次3道题</string>
+    <string name="btl_degree_4">每次4道题</string>
 
     <string name="record_file_create_error">记录文件创建不成功！</string>
     <string name="record_file_read_error">记录文件读取不成功！</string>
