@@ -1,3 +1,8 @@
+
+<p align="center">
+<img src="https://github.com/HaolingZHANG/STO/blob/master/logo.png" alt="STO" title="STO" width="30%"/>
+</p>
+
 # STO（Special Training in Orienteering）
 
 ## 中文版本
