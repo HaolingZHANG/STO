@@ -2,10 +2,12 @@
 <p align="center">
 <img src="https://github.com/HaolingZHANG/STO/blob/master/logo.png" alt="STO" title="STO" width="30%"/>
 </p>
+---
 
 # STO（Special Training in Orienteering）
 
 ## 中文版本
+　　参考论文: [Special Quantitative Methods for Orienteering Training in Areas without Orienteering Map](https://osf.io/preprints/socarxiv/mjreh/)   
 　　STO的全称是Special Training in Orienteering，中文名称为定向专项训练科目。该软件所解决的问题为在定向地图缺乏且能够开展定向运动地区的针对较专业运动员培训问题（改变教练只以长跑能力作为定向运动员唯一训练及其选拔标准的倾向）。  
 　　STO目前集成三大原创方法，分别为计算式平均跑 、梅花式莱格尔以及图例式莱格尔。  
 　　（1）计算式平均跑： 该方法是模拟定向运动员在缺氧运动中的定期定量思维能力。受训者需尽可能以相同的步幅和步频奔跑并进行简单数学题的记背、心算以及选择正确答案。之所以要以相同的步幅和步频奔跑，是因为在定向越野运动中保持良好的行进节奏有利于对周围环境进行有效感知。该方法的技术等级（难度）是依据定向越野地图的难度与复杂度制定的，最低等级对应专业定向运动员在作训或比赛时单次阅读定向地图的平均最大距离，反之，最高等级对应最小距离。目前STO中设定的该方法的参数如下表所示：
@@ -39,6 +41,7 @@
 　　目前，该软件仅支持Android手机终端，完全支持中文，美式英语翻译不完善，暂不支持其他语种。后续方法制作人正在紧张且积极的设计与研发。同时也诚邀不同国籍不同语言的定向粉丝参与设计与研发。此外，该软件虽然为免费软件，但是每一步必须经过严格的审核以及苛刻的调试，以保证能够正确且准确的训练以及教育他人。—— 张颢龄
 
 ## English version（United State）
+　Reference: [Special Quantitative Methods for Orienteering Training in Areas without Orienteering Map](https://osf.io/preprints/socarxiv/mjreh/)  
 　The full name of STO is Special Training in Orienteering. The software is used to solve the problem of training and quantitative selection of the entry-level orienteering athletes in a region where lack orienteering map and can be developed (To change the tendency of coach that the only standard in training and selection is long-distance running ability).   
 　STO integrates three original methods currently，being called Arithmetic Mean Running (AMR), Bleep Test in Plum-blossom (BTP) and Bleep Test with Legend-symbol (BTL) respectively.  
 　（1）AMR：AMR has simulated the skill of orienteering athletes thinking and memory under hypoxia. Trainees should run with same stride length and stride frequency, and remember the numbers, mental arithmetic then choose the right answer. The reason why AMR needs trainees take the same stride length and stride frequency in running is that keeping a good running rhythm in orienteering is easier to effectively perceive the environment.The technical level is based on the difficulty and complexity of orienteering maps. The simplest value and the hardest value correspond to the maximum theoretical distance of each simple sums and the minimum theoretical distance of each simple sums of reading the field orienteering map each time. The parameters of this method currently set in STO are shown in the table below:
